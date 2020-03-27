@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "JavaCompiler",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot\\bin\\javac.exe"
+            },
+            "args": [
+                "${file}"
+            ]
+        },
+        {
+            "label": "JavaRuntime",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot\\bin\\java.exe"
+            },
+            "args": [
+                "${fileBasenameNoExtension}"
+            ]
+        }
+    ]
+}
