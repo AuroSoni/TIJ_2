@@ -3,7 +3,10 @@ package tij2_ch3_main;
 import tij2_ch3.EverythingIsAnObject;
 import tij2_ch3.EverythingIsAnObject.Exercise1;
 
-class EverythingIsAnObject_main {
+/**
+ * Implements the main method to execute classes in {@link tij2_ch3}
+ */
+public class EverythingIsAnObject_main {
     public static void main(String[] args) {
         EverythingIsAnObject ex=new EverythingIsAnObject();
 

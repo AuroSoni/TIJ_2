@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"tij2_ch3","c":"EverythingIsAnObject","l":"EverythingIsAnObject()","url":"%3Cinit%3E()"},{"p":"tij2_ch3","c":"EverythingIsAnObject.Exercise1","l":"Exercise1()","url":"%3Cinit%3E()"},{"p":"tij2_ch3","c":"EverythingIsAnObject","l":"main(String[])","url":"main(java.lang.String[])"}]
+memberSearchIndex = [{"p":"tij2_ch3_main","c":"EverythingIsAnObject_main","l":"EverythingIsAnObject_main()","url":"%3Cinit%3E()"},{"p":"tij2_ch3_main","c":"EverythingIsAnObject_main","l":"main(String[])","url":"main(java.lang.String[])"}]
