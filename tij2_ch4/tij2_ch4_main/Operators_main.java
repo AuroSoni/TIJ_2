@@ -31,5 +31,9 @@ public class Operators_main{
         System.out.println("ex2_1 : "+ex2_1.f);
         ex.exercise3(ex2_1, 20);
         System.out.println("ex2_1 : "+ex2_1.f);
+
+        System.out.println("Running Exercise 4 : ");
+        double d=ex.exercise4(10, 10);
+        System.out.println("Speed : "+d);
     }
 }

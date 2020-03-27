@@ -47,4 +47,14 @@ public class Operators{
     public void exercise3(Exercise2 ex2,float f){
         ex2.f=f;
     }
+
+    /**
+     * 
+     * @param dist distance travelled
+     * @param time time taken
+     * @return returns speed
+     */
+    public double exercise4(double dist,double time){
+        return dist/time;
+    }
 }
