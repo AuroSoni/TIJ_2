@@ -1,6 +1,7 @@
 package tij2_ch4_main;
 
 import tij2_ch4.Operators;
+import tij2_ch4.Operators.Dog;
 import tij2_ch4.Operators.Exercise2;
 
 /**
@@ -35,5 +36,11 @@ public class Operators_main{
         System.out.println("Running Exercise 4 : ");
         double d=ex.exercise4(10, 10);
         System.out.println("Speed : "+d);
+
+        System.out.println("Running Exercise 5 : ");
+        Dog d1=ex.build_dog("spot", "Ruff");
+        Dog d2=ex.build_dog("scruffy", "Wurf");
+        System.out.println(d1.name+" says "+d1.says);
+        System.out.println(d2.name+" says "+d2.says);
     }
 }

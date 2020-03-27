@@ -57,4 +57,28 @@ public class Operators{
     public double exercise4(double dist,double time){
         return dist/time;
     }
+
+    /**
+     * Create a class called Dog containing two Strings: name and says. 
+     * In main( ), create two dog objects with names 'spot' (who says, 'Ruff!'') 
+     * and 'scruffy' (who says, 'Wurf!''). Then display their names and what they say. 
+     */
+    public class Dog{
+        public String name;
+        public String says;
+        Dog(String n,String s){
+            name=n;
+            says=s;
+        }
+    }
+    
+    /**
+     * public accessible contructor for {@link Dog}
+     * @param n String for name
+     * @param s String for says
+     * @return a {@link Dog} Object with {@link Dog#name} and {@link Dog#says} initialised
+     */
+    public Dog build_dog(String n,String s){
+        return new Dog(n,s);
+    }
 }
