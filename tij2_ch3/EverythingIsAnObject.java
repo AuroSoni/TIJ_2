@@ -13,11 +13,11 @@ public class EverythingIsAnObject{
     * <hr>
     */ 
     public class Exercise1{
-        int i;
-        char c;
+        public int i;
+        public char c;
     }
-
-    public static void main(String[] args) {
-        
+    public Exercise1 ex1;
+    public class Exercise2{
+        public char c;
     }
 }
