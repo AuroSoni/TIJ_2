@@ -36,4 +36,15 @@ public class Operators{
         ex.f=f;
         return ex;
     }
+
+    /**
+     * This method represents aliasing during method calls. 
+     * The field f of {@link Exercise2} is set to f.
+     * @param ex2 An {@link Exercise2} Object.
+     * @param f a floating point number
+     * @see Exercise2
+     */
+    public void exercise3(Exercise2 ex2,float f){
+        ex2.f=f;
+    }
 }

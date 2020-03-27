@@ -26,5 +26,10 @@ public class Operators_main{
         System.out.println("ex2_1 : "+ex2_1.f+"\t"+"ex2_2 : "+ex2_2.f);
         ex2_1.f=10;
         System.out.println("ex2_1 : "+ex2_1.f+"\t"+"ex2_2 : "+ex2_2.f);
+
+        System.out.println("Running Exercise 3 : ");
+        System.out.println("ex2_1 : "+ex2_1.f);
+        ex.exercise3(ex2_1, 20);
+        System.out.println("ex2_1 : "+ex2_1.f);
     }
 }
