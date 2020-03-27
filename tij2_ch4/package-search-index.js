@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"tij2_ch4_main"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"tij2_ch4"}]
