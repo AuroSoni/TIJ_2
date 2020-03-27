@@ -1,5 +1,4 @@
 package tij2_ch3;
-import java.util.*;
 
 /**EverythingIsAnObject
  * This class is based on exercises in TIJ2 chapter 3
