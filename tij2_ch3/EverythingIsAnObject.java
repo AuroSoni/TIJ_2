@@ -9,7 +9,6 @@ public class EverythingIsAnObject{
     * Create a class containing an int and a char 
     * that are not initialized, and print their values 
     * to verify that Java performs default initialization. 
-    * <hr>
     */ 
     public class Exercise1{
         public int i;
@@ -25,4 +24,17 @@ public class EverythingIsAnObject{
         return new Exercise1();
     }
 
+    /**
+     * Creates a "Hello, World!"
+     * program that simply displays the statement
+     */
+    public static class Exercise2{
+
+        /**
+         * Method to print "Hello, World!".
+         */
+        public static void sayHello(){
+            System.out.println("Hello, World!");
+        }
+    }
 }
