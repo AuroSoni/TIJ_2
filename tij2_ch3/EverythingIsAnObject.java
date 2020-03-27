@@ -15,8 +15,14 @@ public class EverythingIsAnObject{
         public int i;
         public char c;
     }
-    public Exercise1 ex1;
-    public class Exercise2{
-        public char c;
+
+    /**
+     * Contructor for the inner class {@link Exercise1}
+     * @return A default initialised object for {@link Exercise1}
+     * @param null accepts no parameters
+     */
+    public Exercise1 c1(){
+        return new Exercise1();
     }
+
 }
