@@ -1,5 +1,7 @@
 package tij2_ch4;
 
+import java.util.Random;
+
 /**
  * This class is a solution to all the exercises in chapter 4 <b>Operators</b> in TIJ2.
  */
@@ -81,5 +83,14 @@ public class Operators{
      */
     public Dog build_dog(String n,String s){
         return new Dog(n,s);
+    }
+
+    /**
+     * Produces a random coin flip. Solution for Exercise 7.
+     * @return true if heads false if tails.
+     */
+    public boolean coinFlip(){
+        Random r=new Random();
+        return r.nextBoolean();
     }
 }

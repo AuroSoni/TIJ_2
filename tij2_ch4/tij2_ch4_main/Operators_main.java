@@ -54,5 +54,9 @@ public class Operators_main{
         newDog.name=d1.name="fName";
         newDog.says=d1.says="fSays";
         System.out.println(newDog.equals(d1)); //This is the special case
+
+        System.out.println("Running Exercise 7 : ");
+        if(ex.coinFlip())System.out.println("Heads");
+        else System.out.println("Tails");
     }
 }
