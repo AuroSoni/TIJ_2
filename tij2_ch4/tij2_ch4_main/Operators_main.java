@@ -83,5 +83,54 @@ public class Operators_main{
         System.out.println("j^j : "+Integer.toBinaryString(j^j));
         System.out.println("~i : "+Integer.toBinaryString(~i));
         System.out.println("~j : "+Integer.toBinaryString(~j));  //Note that Integer.toBinaryString() does not print leading zeroes
+
+        System.out.println("Running Exercise 11 : ");
+        int no= 0xffffffff;
+        System.out.println("no : "+Integer.toBinaryString(no)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+        System.out.println("no : "+Integer.toBinaryString(no>>>=3)+" : "+no);
+
+        System.out.println("Running Exercise 12 : ");
+        int no2= 0xffffffff;
+        System.out.println("no : "+Integer.toBinaryString(no2)+" : "+no2);
+        System.out.println("no : "+Integer.toBinaryString(no2<<=14)+" : "+no2);
+        System.out.println("no : "+Integer.toBinaryString(no2>>=4)+" : "+no2);
+        System.out.println("no : "+Integer.toBinaryString(no2>>=4)+" : "+no2);
+        System.out.println("no : "+Integer.toBinaryString(no2>>=4)+" : "+no2);
+        System.out.println("no : "+Integer.toBinaryString(no2>>=4)+" : "+no2);
+        
+        System.out.println("Running Exercise 13 : ");
+        System.out.println("a : "+Operators.exercise13('a'));
+        System.out.println("b : "+Operators.exercise13('b'));
+        System.out.println("z : "+Operators.exercise13('z'));
+        System.out.println("A : "+Operators.exercise13('A'));
+        System.out.println("G : "+Operators.exercise13('G'));
+        System.out.println("Z : "+Operators.exercise13('Z'));
+        System.out.println("1 : "+Operators.exercise13('1'));
+        System.out.println("5 : "+Operators.exercise13('5'));
+        System.out.println("9 : "+Operators.exercise13('9'));
+        System.out.println("0 : "+Operators.exercise13('0'));
+        System.out.println("  : "+Operators.exercise13(' '));
+        System.out.println("\n : "+Operators.exercise13('\n'));
+        System.out.println("! : "+Operators.exercise13('!'));
+        System.out.println("~ : "+Operators.exercise13('~'));
+        System.out.println("$ : "+Operators.exercise13('$'));
+        System.out.println("& : "+Operators.exercise13('&'));
+        System.out.println("\t : "+Operators.exercise13('\t'));
+        System.out.println("double quotes "+Operators.exercise13('"'));
+        System.out.println("/ : "+Operators.exercise13('/'));
+        System.out.println("} : "+Operators.exercise13('}'));
+        System.out.println("> : "+Operators.exercise13('>'));
+        System.out.println("? : "+Operators.exercise13('?'));
+        System.out.println(". : "+Operators.exercise13('.'));
     }
 }

@@ -110,4 +110,14 @@ public class Operators{
     public Exercise8 makeEx8(){
         return new Exercise8();
     }
+
+    /**
+     *  Write a method that displays char values in binary form. Demonstrate it using several different characters.
+     * @param c an ASCII character
+     * @return a Binary code in the form of a string.
+     */
+    public static String exercise13(char c){
+        int i=(int)c;
+        return Integer.toBinaryString(i);
+    }
 }
