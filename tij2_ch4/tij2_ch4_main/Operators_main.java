@@ -42,5 +42,17 @@ public class Operators_main{
         Dog d2=ex.build_dog("scruffy", "Wurf");
         System.out.println(d1.name+" says "+d1.says);
         System.out.println(d2.name+" says "+d2.says);
+        
+        // create a new Dog reference and assign it to spot’s object. Test for comparison using == and equals( ) for all references. 
+        System.out.println("Running Exercise 6 : ");
+        Dog newDog=ex.build_dog("newDog", "Bark");
+        System.out.println(d1==d2);
+        System.out.println(d1==newDog);
+        System.out.println(newDog==d2);
+        d1=d2;
+        System.out.println(d1.equals(d2));
+        newDog.name=d1.name="fName";
+        newDog.says=d1.says="fSays";
+        System.out.println(newDog.equals(d1)); //This is the special case
     }
 }
