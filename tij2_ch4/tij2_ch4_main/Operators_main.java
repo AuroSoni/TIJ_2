@@ -58,5 +58,9 @@ public class Operators_main{
         System.out.println("Running Exercise 7 : ");
         if(ex.coinFlip())System.out.println("Heads");
         else System.out.println("Tails");
+
+        System.out.println("Running Exercise 8 : ");
+        System.out.println("hex : "+Long.toBinaryString(ex.makeEx8().hex_));
+        System.out.println("oct : "+Long.toBinaryString(ex.makeEx8().oct_));
     }
 }

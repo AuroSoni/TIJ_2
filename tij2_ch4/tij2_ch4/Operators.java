@@ -93,4 +93,21 @@ public class Operators{
         Random r=new Random();
         return r.nextBoolean();
     }
+
+    /**
+     * Show that hex and octal notations work with long values. Use Long.toBinaryString( ) 
+     * to display the results. 
+     */
+    public class Exercise8{
+        public long hex_=0xfffffff;
+        public long oct_=043253;
+    }
+
+    /**
+     * Contructor for Exercise8.
+     * @return a reference to a new Exercise8 Object.
+     */
+    public Exercise8 makeEx8(){
+        return new Exercise8();
+    }
 }
