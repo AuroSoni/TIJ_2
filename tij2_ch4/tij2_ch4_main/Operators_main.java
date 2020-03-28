@@ -132,5 +132,9 @@ public class Operators_main{
         System.out.println("> : "+Operators.exercise13('>'));
         System.out.println("? : "+Operators.exercise13('?'));
         System.out.println(". : "+Operators.exercise13('.'));
+
+        System.out.println("Running Exercise 14 : ");
+        Operators.exercise14("Hello", "hello");
+        Operators.exercise14("hello", "hello");
     }
 }

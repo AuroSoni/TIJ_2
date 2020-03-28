@@ -120,4 +120,17 @@ public class Operators{
         int i=(int)c;
         return Integer.toBinaryString(i);
     }
+
+    /**
+     *  Write a method that takes two String arguments and uses all the boolean comparisons 
+     * to compare the two Strings and print the results. For the == and !=, also perform the equals( ) test. 
+     * In main( ), call your method with some different String objects.
+     * @param a a string value
+     * @param b a string value
+     */
+    public static void exercise14(String a, String b){
+        System.out.println("== : "+(a==b));
+        System.out.println("!= : "+(a!=b));
+        System.out.println("equals() : "+(a.equals(b)));
+    }
 }
