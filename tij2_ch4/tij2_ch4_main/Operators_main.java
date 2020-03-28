@@ -66,5 +66,22 @@ public class Operators_main{
         System.out.println("Running Exercise 9 : ");
         System.out.println("Max float : "+Float.MAX_VALUE);
         System.out.println("Max Double : "+Double.MAX_VALUE);
+
+        System.out.println("Running Exercise 10 : ");
+        int i=0xaaaaaaaa;
+        int j=0x55555555;
+        System.out.println("i : "+Integer.toBinaryString(i));
+        System.out.println("j : "+Integer.toBinaryString(j));
+        System.out.println("i&j : "+Integer.toBinaryString(i&j));
+        System.out.println("i&i : "+Integer.toBinaryString(i&i));
+        System.out.println("j&j : "+Integer.toBinaryString(j&j));
+        System.out.println("i|j : "+Integer.toBinaryString(i|j));
+        System.out.println("i|i : "+Integer.toBinaryString(i|i));
+        System.out.println("j|j : "+Integer.toBinaryString(j|j));
+        System.out.println("i^j : "+Integer.toBinaryString(i^j));
+        System.out.println("i^i : "+Integer.toBinaryString(i^i));
+        System.out.println("j^j : "+Integer.toBinaryString(j^j));
+        System.out.println("~i : "+Integer.toBinaryString(~i));
+        System.out.println("~j : "+Integer.toBinaryString(~j));  //Note that Integer.toBinaryString() does not print leading zeroes
     }
 }
