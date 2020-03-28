@@ -62,5 +62,9 @@ public class Operators_main{
         System.out.println("Running Exercise 8 : ");
         System.out.println("hex : "+Long.toBinaryString(ex.makeEx8().hex_));
         System.out.println("oct : "+Long.toBinaryString(ex.makeEx8().oct_));
+
+        System.out.println("Running Exercise 9 : ");
+        System.out.println("Max float : "+Float.MAX_VALUE);
+        System.out.println("Max Double : "+Double.MAX_VALUE);
     }
 }
