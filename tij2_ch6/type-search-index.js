@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"tij2_ch6_main","l":"InitializationAndCleanup_main"}]
