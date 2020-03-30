@@ -22,5 +22,7 @@ public class InitializationAndCleanup_main{
         System.gc();
         System.runFinalization();//Calling System.gc( ) and System.runFinalization( ) in sequence will probably 
                                  //but not necessarily call your finalizer (The behavior of finalize has been uncertain from one version of JDK to another.) 
+        
+        System.out.println("Exercise 12 issimilar to Exercise 11. ");
     }
 }
