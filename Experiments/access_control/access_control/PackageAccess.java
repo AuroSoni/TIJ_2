@@ -10,6 +10,10 @@ public class PackageAccess {
         PrintSupport.print(s);
     }
 
+    public static void hello(){
+        System.out.println("Hello! ");
+    }
+
     int get_private(){return private_pa;}
     public PackageAccess(){
         default_pa=0;
