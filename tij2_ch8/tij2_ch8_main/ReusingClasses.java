@@ -26,7 +26,7 @@ public class ReusingClasses{
 class e2 extends Exercise2{
     @Override
     public void scrub() {
-        // TODO Auto-generated method stub
+        // Auto-generated method stub
         append(" e2.scrub()");
         super.scrub();
     }
