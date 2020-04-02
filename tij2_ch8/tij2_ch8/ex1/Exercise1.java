@@ -7,11 +7,14 @@ package tij2_ch8.ex1;
 public class Exercise1{
     protected int no=0;
     private Question1 q1;
-    public Question1 getQuestion(int i){
+    public void setQuestion(int i){
         if(q1==null){
-            return new Question1(i);
+            System.out.println("Q1 is null till here");
+            q1= new Question1(i);
         }
-        else return q1;
+        else{
+            System.out.println("Q1 already initialised "+q1.qno+" "+q1.question);
+        } 
     }
 }
 
