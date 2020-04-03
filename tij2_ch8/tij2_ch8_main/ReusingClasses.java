@@ -1,6 +1,11 @@
 package tij2_ch8_main;
+
 import tij2_ch8.ex1.Exercise1;
 import tij2_ch8.ex2.*;
+import tij2_ch8.ex3.Exercise3;
+import tij2_ch8.ex5.Exercise5;
+import tij2_ch8.ex6.Exercise6;
+import tij2_ch8.ex7.Exercise7;
 
 public class ReusingClasses{
     public static void main(String[] args) {
@@ -18,8 +23,25 @@ public class ReusingClasses{
         System.out.println(ex2.toString());
         ex2.sterilize();
         System.out.println(ex2.toString());
+
+        System.out.println("\nRunning Exercise 3 and 4");
+        Exercise3 ex3=new Exercise3();
+        System.out.println("QNo = "+ex3.getqno());
+
+        System.out.println("\nRunning Exercise 5");
+        Exercise5 ex5=new Exercise5();
+        System.out.println(ex5.toString());
+
+        System.out.println("\nRunning Exercise 6");
+        Exercise6 ex6=new Exercise6();
+        System.out.println(ex6.toString());
+
+        System.out.println("\nRunning Exercise 7");
+        Exercise7 ex7=new Exercise7(1,2);
+        System.out.println(ex7.toString());
     }
 }
+
 /**
  * Inherit a new class from class Exercise2. Override scrub( ) and add a new method called sterilize( ). 
  */
