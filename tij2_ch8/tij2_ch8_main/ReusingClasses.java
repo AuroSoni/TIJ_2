@@ -1,12 +1,14 @@
 package tij2_ch8_main;
 
 import tij2_ch8.ex1.Exercise1;
+import tij2_ch8.ex10.Exercise10;
 import tij2_ch8.ex2.*;
 import tij2_ch8.ex3.Exercise3;
 import tij2_ch8.ex5.Exercise5;
 import tij2_ch8.ex6.Exercise6;
 import tij2_ch8.ex7.Exercise7;
 import tij2_ch8.ex8.Exercise8;
+import tij2_ch8.ex9.Exercise9;
 
 public class ReusingClasses{
     public static void main(String[] args) {
@@ -46,6 +48,14 @@ public class ReusingClasses{
         System.out.println(ex8_nd.toString());
         Exercise8 ex8_d=new Exercise8();
         System.out.println(ex8_d.toString());
+
+        System.out.println("\nRunning Exercise 9");
+        Exercise9 ex9=new Exercise9();
+        System.out.println(ex9.toString());
+
+        System.out.println("\nRunning Exercise 9");
+        Exercise10 ex10=new Exercise10("1","2","3","a","b","c");
+        System.out.println(ex10.print());
     }
 }
 
