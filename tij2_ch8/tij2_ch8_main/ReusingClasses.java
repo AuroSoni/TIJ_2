@@ -6,6 +6,7 @@ import tij2_ch8.ex3.Exercise3;
 import tij2_ch8.ex5.Exercise5;
 import tij2_ch8.ex6.Exercise6;
 import tij2_ch8.ex7.Exercise7;
+import tij2_ch8.ex8.Exercise8;
 
 public class ReusingClasses{
     public static void main(String[] args) {
@@ -39,6 +40,12 @@ public class ReusingClasses{
         System.out.println("\nRunning Exercise 7");
         Exercise7 ex7=new Exercise7(1,2);
         System.out.println(ex7.toString());
+
+        System.out.println("\nRunning Exercise 8");
+        Exercise8 ex8_nd=new Exercise8(1);
+        System.out.println(ex8_nd.toString());
+        Exercise8 ex8_d=new Exercise8();
+        System.out.println(ex8_d.toString());
     }
 }
 
