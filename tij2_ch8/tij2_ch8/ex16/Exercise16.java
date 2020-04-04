@@ -3,18 +3,20 @@ package tij2_ch8.ex16;
 import static tij2_ch8.tools.tools.print;
 
 class Amphibian{
-    protected String specie;
+    protected boolean soul;
     Amphibian rep(){
         print("Rep()");
         return new Amphibian(this);
     }
     Amphibian(Amphibian amphibian){
-        print("Amphibian(): "+amphibian.specie);
-        specie=amphibian.specie;
+        print("Father_Amphibian(): "+amphibian.soul);
+        soul=true;
+        print("Baby_Amphibian(): "+soul);
     }
 
     Amphibian(){
         //God Amphibian
+        soul=true;
         print("God Amphibian Appears");
     }
 }
@@ -24,7 +26,7 @@ class Amphibian{
  * In main( ), create a Frog and upcast it to Amphibian and demonstrate that all the methods still work. 
  */
 public class Exercise16 extends Amphibian{
-    String specie="frog";
+    final String specie="frog";
     Exercise16(Exercise16 frog){
         super(frog);
     }
@@ -33,10 +35,19 @@ public class Exercise16 extends Amphibian{
         //God frog
         print("God Frog Appears");
     }
+    @Override
+    Exercise16 rep() {
+        Exercise16 baby_frog=new Exercise16(this);
+        // Auto-generated method stub
+        return baby_frog;
+    }
 
     public static void main(String[] args) {
         //! Exercise16 ex16=new Exercise16((Exercise16) new Amphibian());
         Exercise16 ex16=new Exercise16();
-        ex16.toString();
+        print(ex16.toString());
+        Exercise16 frog=(Exercise16)ex16.rep();
+        print(frog.toString());
+        //Exercise16 frog=new Exercise16(ex16);
     }
 }
