@@ -6,7 +6,9 @@ public class tools {
             System.out.println(string);
         }
     }
-    public static void print(Object args){
-        System.out.println(args);
+    public static void print(Object... args){
+        for (Object object : args) {
+            System.out.println(object);
+        }
     }
 }

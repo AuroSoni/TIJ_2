@@ -10,6 +10,10 @@ class WithFinals {
     private void g() { 
         print("WithFinals.g()"); 
     } 
+    WithFinals(){
+        f();
+        g();
+    }
 } 
 class OverridingPrivate extends WithFinals {
     //@Override   
@@ -18,6 +22,10 @@ class OverridingPrivate extends WithFinals {
     }   
     private void g() {     
         print("OverridingPrivate.g()");   
+    }
+    OverridingPrivate(){
+        f();
+        g();
     } 
 } 
  
@@ -31,18 +39,19 @@ class OverridingPrivate2 extends OverridingPrivate {
 } 
  
 public class Exercise20 {   
-    public static void main(String[] args) {     
-        OverridingPrivate2 op2 = new OverridingPrivate2();     
-        op2.f();     
-        op2.g();     
-        // You can upcast:     
-        OverridingPrivate op = op2;     
-        // But you can’t call the methods:     
-        //! op.f();     
-        //! op.g();     
-        // Same here:     
-        WithFinals wf = op2;     
+    public static void main(final String[] args) {
+        final OverridingPrivate2 op2 = new OverridingPrivate2();
+        op2.f();
+        op2.g();
+        // You can upcast:
+        final OverridingPrivate op = op2;
+        // But you can’t call the methods:
+        // ! op.f();
+        // ! op.g();
+        // Same here:
+        final WithFinals wf = op2;
         //! wf.f();     
         //! wf.g();   
+        print(op,wf);
     } 
 }
