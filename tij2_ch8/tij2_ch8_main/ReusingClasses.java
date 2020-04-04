@@ -17,6 +17,7 @@ import static tij2_ch8.tools.tools.print;
 
 import tij2_ch8.ex20.Exercise20;
 import tij2_ch8.ex23.Exercise23;
+import tij2_ch8.ex24.Exercise24;
 
 public class ReusingClasses{
     public static void main(final String[] args) {
@@ -101,8 +102,11 @@ public class ReusingClasses{
 
         print("\nExercise 22 done through Exercise 21.");
 
-        print("\nRunning Exercise 22");
+        print("\nRunning Exercise 23");
         Exercise23.main(args);
+
+        print("\nRunning Exercise 24");
+        Exercise24.main(args);
     }
 }
 
