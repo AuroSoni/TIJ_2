@@ -87,6 +87,8 @@ public class ReusingClasses{
         print("\nRunning Exercise 18");
         Exercise18.main(args);
         print("Exercise18()\t"+"final\t"+"static final");
+
+        print("Exercise19 done through exercise18.");
     }
 }
 
