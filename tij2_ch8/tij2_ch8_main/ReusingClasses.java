@@ -94,6 +94,9 @@ public class ReusingClasses{
 
         print("\nRunning Exercise 20");
         Exercise20.main(args);
+
+        print("\nRunning Exercise 21");
+        Exercise20.main(args);
     }
 }
 
