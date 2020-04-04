@@ -64,7 +64,11 @@ public class ReusingClasses{
 
         System.out.println("\nRunning Exercise 12");
         Exercise12 ex12=new Exercise12();
-        ex12.dispose();
+        try{
+            System.out.println("Dont forget exception handling while cleanup");
+        }finally{
+            ex12.dispose();
+        }
     }
 }
 
