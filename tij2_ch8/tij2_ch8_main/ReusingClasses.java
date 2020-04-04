@@ -16,16 +16,16 @@ import tij2_ch8.ex9.Exercise9;
 import static tij2_ch8.tools.tools.print;
 
 public class ReusingClasses{
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
-        Exercise1 ex1=new Exercise1();
+        final Exercise1 ex1 = new Exercise1();
         print("Hello");
         print("Running Exercise 1");
         ex1.setQuestion(2);
         ex1.setQuestion(3);
-        
+
         print("\nRunning Exercise 2");
-        e2 ex2=new e2();
+        final e2 ex2 = new e2();
         print(ex2.toString());
         ex2.scrub();
         print(ex2.toString());
@@ -33,40 +33,40 @@ public class ReusingClasses{
         print(ex2.toString());
 
         print("\nRunning Exercise 3 and 4");
-        Exercise3 ex3=new Exercise3();
-        print("QNo = "+ex3.getqno());
+        final Exercise3 ex3 = new Exercise3();
+        print("QNo = " + ex3.getqno());
 
         print("\nRunning Exercise 5");
-        Exercise5 ex5=new Exercise5();
+        final Exercise5 ex5 = new Exercise5();
         print(ex5.toString());
 
         print("\nRunning Exercise 6");
-        Exercise6 ex6=new Exercise6();
+        final Exercise6 ex6 = new Exercise6();
         print(ex6.toString());
 
         print("\nRunning Exercise 7");
-        Exercise7 ex7=new Exercise7(1,2);
+        final Exercise7 ex7 = new Exercise7(1, 2);
         print(ex7.toString());
 
         print("\nRunning Exercise 8");
-        Exercise8 ex8_nd=new Exercise8(1);
+        final Exercise8 ex8_nd = new Exercise8(1);
         print(ex8_nd.toString());
-        Exercise8 ex8_d=new Exercise8();
+        final Exercise8 ex8_d = new Exercise8();
         print(ex8_d.toString());
 
         print("\nRunning Exercise 9");
-        Exercise9 ex9=new Exercise9();
+        final Exercise9 ex9 = new Exercise9();
         print(ex9.toString());
 
         print("\nRunning Exercise 10");
-        Exercise10 ex10=new Exercise10("1","2","3","a","b","c");
+        final Exercise10 ex10 = new Exercise10("1", "2", "3", "a", "b", "c");
         print(ex10.print());
 
         print("\nRunning Exercise 11");
         Exercise11.main(args);
 
         print("\nRunning Exercise 12");
-        Exercise12 ex12=new Exercise12();
+        final Exercise12 ex12 = new Exercise12();
         try{
             print("Dont forget exception handling while cleanup");
         }finally{
