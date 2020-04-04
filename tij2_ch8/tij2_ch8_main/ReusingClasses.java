@@ -73,6 +73,8 @@ public class ReusingClasses{
 
         System.out.println("\nRunning Exercise 13");
         Exercise13.main(args);
+
+        System.out.println("\nExercise14 is too easy to be done.");
     }
 }
 
