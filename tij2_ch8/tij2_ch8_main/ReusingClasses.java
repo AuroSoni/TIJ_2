@@ -77,6 +77,8 @@ public class ReusingClasses{
         System.out.println("\nExercise14 is too easy to be done.");
 
         System.out.println("\nExercise15 is already done.");
+
+        System.out.println("\nExercise16 is done. My version needs some research. God Level.");
     }
 }
 
