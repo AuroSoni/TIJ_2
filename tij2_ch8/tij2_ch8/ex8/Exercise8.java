@@ -1,10 +1,11 @@
 package tij2_ch8.ex8;
+import static tij2_ch8.tools.tools.print;
 
 class Base{
     int base_size;
     Base(int base){
         base_size=base;
-        System.out.println("Running Base Constructor");
+        print("Running Base Constructor");
     }
 }
 
@@ -16,10 +17,10 @@ class Base{
 public class Exercise8 extends Base{
     public Exercise8(int base){
         super(base);
-        System.out.println("non-default contructor");
+        print("non-default contructor");
     }
     public Exercise8(){
         super(0);
-        System.out.println("default constructor");
+        print("default constructor");
     }
 }

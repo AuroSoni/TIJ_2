@@ -1,14 +1,15 @@
 package tij2_ch8.ex3;
+import static tij2_ch8.tools.tools.print;
 
 class Art {   
     Art() { 
-        System.out.println("Art constructor"); 
+        print("Art constructor"); 
     } 
 } 
  
 class Drawing extends Art {   
     Drawing() { 
-        System.out.println("Drawing constructor"); 
+        print("Drawing constructor"); 
     } 
 }
 

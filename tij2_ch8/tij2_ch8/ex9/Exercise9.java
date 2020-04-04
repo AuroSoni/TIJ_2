@@ -1,9 +1,10 @@
 package tij2_ch8.ex9;
+import static tij2_ch8.tools.tools.print;
 
 class Component1{
     int cno;
     Component1(){
-        System.out.println("Component1()");
+        print("Component1()");
         cno=1;
     }
 }
@@ -11,7 +12,7 @@ class Component1{
 class Component2{
     int cno;
     Component2(){
-        System.out.println("Component2()");
+        print("Component2()");
         cno=2;
     }
 }
@@ -19,7 +20,7 @@ class Component2{
 class Component3{
     int cno;
     Component3(){
-        System.out.println("Component3()");
+        print("Component3()");
         cno=3;
     }
 }
@@ -30,7 +31,7 @@ class Root{
     protected Component3 c3;
 
     Root(){
-        System.out.println("Root()");
+        print("Root()");
         c1=new Component1();
         c2=new Component2();
         c3=new Component3();
@@ -48,7 +49,7 @@ public class Exercise9 extends Root{
     Component3 cc;
 
     public Exercise9(){
-        System.out.println("Exercise9()");
+        print("Exercise9()");
         ca=new Component1();
         cb=new Component2();
         cc=new Component3();

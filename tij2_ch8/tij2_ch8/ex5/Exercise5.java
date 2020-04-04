@@ -1,14 +1,15 @@
 package tij2_ch8.ex5;
+import static tij2_ch8.tools.tools.print;
 
 class A{
     A(){
-        System.out.println("Hi, its A");
+        print("Hi, its A");
     }
 }
 
 class B{
     B(){
-        System.out.println("Hi, its B");
+        print("Hi, its B");
     }
 }
 

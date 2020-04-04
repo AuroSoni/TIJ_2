@@ -1,10 +1,11 @@
 package tij2_ch8.ex7;
+import static tij2_ch8.tools.tools.print;
 
 class A{
     int ano;
     A(int a){
         ano=a;
-        System.out.println("Hi, its A no. "+ano);
+        print("Hi, its A no. "+ano);
     }
     
     public String toString() {
@@ -16,7 +17,7 @@ class B{
     int bno;
     B(int b){
         bno=b;
-        System.out.println("Hi, its B no. "+bno);
+        print("Hi, its B no. "+bno);
     }
 
     public String toString(){

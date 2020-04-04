@@ -1,15 +1,16 @@
 package tij2_ch8.ex6;
+import static tij2_ch8.tools.tools.print;
 
 class Game {   
     Game(int i) {
-        System.out.println("Game constructor");   
+        print("Game constructor");   
     } 
 } 
  
 class BoardGame extends Game {   
     BoardGame(int i) {     
         super(i);     
-        System.out.println("BoardGame constructor");  
+        print("BoardGame constructor");  
     } 
 }  
 
@@ -23,6 +24,6 @@ class BoardGame extends Game {
 public class Exercise6 extends BoardGame {   
     public Exercise6() {     
         super(11);     
-        System.out.println("Exercise6 constructor");   
+        print("Exercise6 constructor");   
     }   
 } 

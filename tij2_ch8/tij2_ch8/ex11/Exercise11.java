@@ -1,4 +1,5 @@
 package tij2_ch8.ex11;
+import static tij2_ch8.tools.tools.print;
 
 class Cleanser{
     private String s="Cleanser";
@@ -12,7 +13,7 @@ class Cleanser{
         x.dilute();
         x.apply();
         x.scrub();
-        System.out.println(x);
+        print(x);
     }
 }
 /**
@@ -35,8 +36,8 @@ public class Exercise11 {
         ex11.apply();
         ex11.scrub();
         ex11.foam();
-        System.out.println(ex11);
-        System.out.println("Testing Delegation Base Class:");
+        print(ex11);
+        print("Testing Delegation Base Class:");
         Cleanser.main(args);
     }
 }

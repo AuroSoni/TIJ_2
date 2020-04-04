@@ -1,19 +1,20 @@
 package tij2_ch8.ex13;
+import static tij2_ch8.tools.tools.print;
 
 class base{
     protected int overload=1;
     void overload(int i){
-        System.out.println("overload1()"+overload+1);
+        print("overload1()"+overload+1);
     }
     void overload(float f){
-        System.out.println("overload2()"+overload+2);
+        print("overload2()"+overload+2);
     }
     void overload(double d){
-        System.out.println("overload3()"+overload+3);
+        print("overload3()"+overload+3);
     }
     void override(int i){
         overload+=i;
-        System.out.println("overload: "+overload);
+        print("overload: "+overload);
     }
 }
 
@@ -24,17 +25,17 @@ class base{
  */
 public class Exercise13 extends base{
     void overload(){
-        System.out.println("overload()"+overload);
+        print("overload()"+overload);
     }
     @Override
     void override(int i){
         overload*=i;
-        System.out.println("overload: "+overload);
+        print("overload: "+overload);
     }
 
     public static void main(String[] args) {
         Exercise13 ex13=new Exercise13();
-        System.out.println("overloading!!!");
+        print("overloading!!!");
         ex13.overload(2);
         ex13.overload(2.0f);
         ex13.overload(2.0d);
