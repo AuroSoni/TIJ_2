@@ -2,6 +2,7 @@ package tij2_ch8_main;
 
 import tij2_ch8.ex1.Exercise1;
 import tij2_ch8.ex10.Exercise10;
+import tij2_ch8.ex11.Exercise11;
 import tij2_ch8.ex2.*;
 import tij2_ch8.ex3.Exercise3;
 import tij2_ch8.ex5.Exercise5;
@@ -53,9 +54,12 @@ public class ReusingClasses{
         Exercise9 ex9=new Exercise9();
         System.out.println(ex9.toString());
 
-        System.out.println("\nRunning Exercise 9");
+        System.out.println("\nRunning Exercise 10");
         Exercise10 ex10=new Exercise10("1","2","3","a","b","c");
         System.out.println(ex10.print());
+
+        System.out.println("\nRunning Exercise 11");
+        Exercise11.main(args);
     }
 }
 
