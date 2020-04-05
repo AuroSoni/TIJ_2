@@ -1,8 +1,8 @@
-package tij2_ch4_main;
+package tij2_ch4.tij2_ch4_main;
 
-import tij2_ch4.Operators;
-import tij2_ch4.Operators.Dog;
-import tij2_ch4.Operators.Exercise2;
+import tij2_ch4.tij2_ch4.Operators;
+import tij2_ch4.tij2_ch4.Operators.Dog;
+import tij2_ch4.tij2_ch4.Operators.Exercise2;
 
 /**
  * Implements the main method to run the objects in {@link tij2_ch4}

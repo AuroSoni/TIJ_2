@@ -1,4 +1,6 @@
-class Bowl {   
+package experiments;
+
+class Bowl {
     Bowl(int marker) {     
         System.out.println("Bowl(" + marker + ")");   //3: Bowl(1) printed , 5: Bowl(2) printed. 
     }   

@@ -1,10 +1,10 @@
-package tij2_ch8.ex10;
+package tij2_ch8.tij2_ch8.ex10;
 
 class Component1{
     int cno;
     String cname;
     Component1(String name){
-        tij2_ch8.tools.tools.print("Component1()");
+        tij2_ch8.tij2_ch8.tools.tools.print("Component1()");
         cno=1;
         cname=name;
     }
@@ -17,7 +17,7 @@ class Component2{
     int cno;
     String cname;
     Component2(String name){
-        tij2_ch8.tools.tools.print("Component2()");
+        tij2_ch8.tij2_ch8.tools.tools.print("Component2()");
         cno=2;
         cname=name;
     }
@@ -30,7 +30,7 @@ class Component3{
     int cno;
     String cname;
     Component3(String name){
-        tij2_ch8.tools.tools.print("Component3()");
+        tij2_ch8.tij2_ch8.tools.tools.print("Component3()");
         cno=3;
         cname=name;
     }
@@ -45,7 +45,7 @@ class Root{
     protected Component3 c3;
 
     Root(String name1,String name2, String name3){
-        tij2_ch8.tools.tools.print("Root()");
+        tij2_ch8.tij2_ch8.tools.tools.print("Root()");
         c1=new Component1(name1);
         c2=new Component2(name2);
         c3=new Component3(name3);
@@ -66,7 +66,7 @@ public class Exercise10 extends Root{
 
     public Exercise10(String name1,String name2, String name3,String namea, String nameb,String namec){
         super(name1,name2,name3);
-        tij2_ch8.tools.tools.print("Exercise9()");
+        tij2_ch8.tij2_ch8.tools.tools.print("Exercise9()");
         ca=new Component1(namea);
         cb=new Component2(nameb);
         cc=new Component3(namec);

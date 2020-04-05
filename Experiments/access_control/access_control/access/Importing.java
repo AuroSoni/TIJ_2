@@ -1,6 +1,6 @@
-package access_control.access;
+package experiments.access_control.access_control.access;
 
-import access_control.PackageAccess;
+import experiments.access_control.access_control.PackageAccess;
 
 public class Importing{
     public static void main(String[] args) {

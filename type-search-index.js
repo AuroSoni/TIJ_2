@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"tij2_ch3.tij2_ch3","l":"EverythingIsAnObject"},{"p":"tij2_ch3.tij2_ch3","l":"EverythingIsAnObject.Exercise1"},{"p":"tij2_ch3.tij2_ch3","l":"EverythingIsAnObject.Exercise2"}]

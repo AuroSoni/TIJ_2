@@ -1,6 +1,6 @@
-package tij2_ch8.ex16;
+package tij2_ch8.tij2_ch8.ex16;
 
-import static tij2_ch8.tools.tools.print;
+import static tij2_ch8.tij2_ch8.tools.tools.print;
 
 class Amphibian{
     protected boolean soul;

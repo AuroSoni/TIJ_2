@@ -1,6 +1,6 @@
-package tij2_ch6_main;
-import tij2_ch6.InitializationAndCleanup;
-import tij2_ch6.InitializationAndCleanup.Exercise11;
+package tij2_ch6.tij2_ch6_main;
+import tij2_ch6.tij2_ch6.InitializationAndCleanup;
+import tij2_ch6.tij2_ch6.InitializationAndCleanup.Exercise11;
 
 /**
  * This class employs the main() method to execute the code in {@link tij2_ch6.InitializationAndCleanup}.

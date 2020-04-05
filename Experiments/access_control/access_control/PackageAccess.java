@@ -1,4 +1,4 @@
-package access_control;
+package experiments.access_control.access_control;
 
 public class PackageAccess {
     int default_pa;

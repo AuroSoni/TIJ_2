@@ -1,4 +1,6 @@
+package tij2_ch3;
 import java.util.*;
+
 class MyFirstJavaProject{
     public static void main(String args[]){
         Exercise1 Obj1=new Exercise1();

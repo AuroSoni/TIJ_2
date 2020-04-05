@@ -1,9 +1,8 @@
-package tij2_ch3_main;
+package tij2_ch3.tij2_ch3_main;
 
 import java.math.BigInteger;
-
-import tij2_ch3.EverythingIsAnObject;
-import tij2_ch3.EverythingIsAnObject.Exercise1;
+import tij2_ch3.tij2_ch3.EverythingIsAnObject;
+import tij2_ch3.tij2_ch3.EverythingIsAnObject.Exercise1;
 
 /**
  * Implements the main method to execute classes in {@link tij2_ch3}
@@ -28,7 +27,6 @@ public class EverythingIsAnObject_main {
     /**
      * Used to introduce a delay via while loop.
      * @param a not null
-     * @return null
      * @deprecated
      */
     protected static void pause(BigInteger a) {

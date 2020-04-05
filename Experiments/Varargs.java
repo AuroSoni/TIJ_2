@@ -1,4 +1,6 @@
-public class Varargs {   
+package experiments;
+
+public class Varargs {
     static void f(Character... args) {     
         System.out.print(args.getClass());     
         System.out.println(" length " + args.length);   

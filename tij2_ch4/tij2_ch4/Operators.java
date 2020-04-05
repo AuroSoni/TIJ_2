@@ -1,4 +1,4 @@
-package tij2_ch4;
+package tij2_ch4.tij2_ch4;
 
 import java.util.Random;
 

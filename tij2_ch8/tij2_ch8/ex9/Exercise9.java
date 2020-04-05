@@ -1,5 +1,5 @@
-package tij2_ch8.ex9;
-import static tij2_ch8.tools.tools.print;
+package tij2_ch8.tij2_ch8.ex9;
+import static tij2_ch8.tij2_ch8.tools.tools.print;
 
 class Component1{
     int cno;

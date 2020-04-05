@@ -1,4 +1,4 @@
-package tools.print;
+package custom_tools.tools.print;
 
 public class Print{
     int i=0;

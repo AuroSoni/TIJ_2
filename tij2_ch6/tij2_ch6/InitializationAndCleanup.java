@@ -1,4 +1,4 @@
-package tij2_ch6;
+package tij2_ch6.tij2_ch6;
 
 /**
  * This class is a solution class for all the problems in chapter 6

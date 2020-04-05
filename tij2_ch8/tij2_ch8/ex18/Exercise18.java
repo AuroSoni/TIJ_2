@@ -1,5 +1,5 @@
-package tij2_ch8.ex18;
-import static tij2_ch8.tools.tools.print;
+package tij2_ch8.tij2_ch8.ex18;
+import static tij2_ch8.tij2_ch8.tools.tools.print;
 
 /**
  * Create a class with a static final field and a final field 

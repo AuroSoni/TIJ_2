@@ -1,4 +1,4 @@
-package tij2_ch3;
+package tij2_ch3.tij2_ch3;
 
 /**EverythingIsAnObject
  * This class is based on exercises in TIJ2 chapter 3
@@ -18,7 +18,6 @@ public class EverythingIsAnObject{
     /**
      * Contructor for the inner class {@link Exercise1}
      * @return A default initialised object for {@link Exercise1}
-     * @param null accepts no parameters
      */
     public Exercise1 c1(){
         return new Exercise1();

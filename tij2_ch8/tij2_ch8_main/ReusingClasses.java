@@ -1,23 +1,23 @@
-package tij2_ch8_main;
+package tij2_ch8.tij2_ch8_main;
 
-import tij2_ch8.ex1.Exercise1;
-import tij2_ch8.ex10.Exercise10;
-import tij2_ch8.ex11.Exercise11;
-import tij2_ch8.ex12.Exercise12;
-import tij2_ch8.ex13.Exercise13;
-import tij2_ch8.ex18.Exercise18;
-import tij2_ch8.ex2.*;
-import tij2_ch8.ex3.Exercise3;
-import tij2_ch8.ex5.Exercise5;
-import tij2_ch8.ex6.Exercise6;
-import tij2_ch8.ex7.Exercise7;
-import tij2_ch8.ex8.Exercise8;
-import tij2_ch8.ex9.Exercise9;
-import static tij2_ch8.tools.tools.print;
+import tij2_ch8.tij2_ch8.ex1.Exercise1;
+import tij2_ch8.tij2_ch8.ex10.Exercise10;
+import tij2_ch8.tij2_ch8.ex11.Exercise11;
+import tij2_ch8.tij2_ch8.ex12.Exercise12;
+import tij2_ch8.tij2_ch8.ex13.Exercise13;
+import tij2_ch8.tij2_ch8.ex18.Exercise18;
+import tij2_ch8.tij2_ch8.ex2.*;
+import tij2_ch8.tij2_ch8.ex3.Exercise3;
+import tij2_ch8.tij2_ch8.ex5.Exercise5;
+import tij2_ch8.tij2_ch8.ex6.Exercise6;
+import tij2_ch8.tij2_ch8.ex7.Exercise7;
+import tij2_ch8.tij2_ch8.ex8.Exercise8;
+import tij2_ch8.tij2_ch8.ex9.Exercise9;
+import static tij2_ch8.tij2_ch8.tools.tools.print;
 
-import tij2_ch8.ex20.Exercise20;
-import tij2_ch8.ex23.Exercise23;
-import tij2_ch8.ex24.Exercise24;
+import tij2_ch8.tij2_ch8.ex20.Exercise20;
+import tij2_ch8.tij2_ch8.ex23.Exercise23;
+import tij2_ch8.tij2_ch8.ex24.Exercise24;
 
 public class ReusingClasses{
     public static void main(final String[] args) {
