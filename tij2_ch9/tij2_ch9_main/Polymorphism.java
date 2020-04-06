@@ -18,7 +18,7 @@ public class Polymorphism {
         print("\nRunning Exercise 5 : ");
         Exercise5.main(args);
 
-        print("\nRunning Exercise 9 : ");
+        print("\nRunning Exercise 9 and 12 : ");
         Exercise9.main(args);
     }
 }
