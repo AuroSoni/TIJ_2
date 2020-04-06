@@ -55,7 +55,7 @@ class Composing {
  * Add a finalize( ) method to ReferenceCounting.java 
  * to verify the termination condition (see the Initialization & Cleanup chapter). 
  */
-public class Exercise14 {
+public class Exercise13 {
     public static void main(String[] args) {     
         Shared shared = new Shared();     
         Composing[] composing = { new Composing(shared), new Composing(shared), new Composing(shared), new Composing(shared), new Composing(shared) };
