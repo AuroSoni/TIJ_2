@@ -1,8 +1,6 @@
 package tij2_ch9.tij2_ch9.ex17;
 import static custom_tools.tools.print.Print.print;
 
-import java.lang.reflect.Array;
-
 enum Level{
     NOOB,BEGINNER,INTERMEDIATE,PROFESSIONAL,GOD;
 }
