@@ -4,6 +4,7 @@ import static custom_tools.tools.print.Print.print;
 import tij2_ch9.tij2_ch9.ex1.Exercise1;
 import tij2_ch9.tij2_ch9.ex13.Exercise13;
 import tij2_ch9.tij2_ch9.ex16.Exercise16;
+import tij2_ch9.tij2_ch9.ex17.Exercise17;
 import tij2_ch9.tij2_ch9.ex2.Exercise2;
 import tij2_ch9.tij2_ch9.ex5.Exercise5;
 import tij2_ch9.tij2_ch9.ex9.Exercise9;
@@ -29,5 +30,8 @@ public class Polymorphism {
 
         print("\nRunning Exercise 16 : ");
         Exercise16.main(args);
+
+        print("\nRunning Exercise 17 : ");
+        Exercise17.main(args);
     }
 }
