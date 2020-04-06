@@ -2,6 +2,7 @@ package tij2_ch9.tij2_ch9_main;
 import static custom_tools.tools.print.Print.print;
 
 import tij2_ch9.tij2_ch9.ex1.Exercise1;
+import tij2_ch9.tij2_ch9.ex13.Exercise14;
 import tij2_ch9.tij2_ch9.ex2.Exercise2;
 import tij2_ch9.tij2_ch9.ex5.Exercise5;
 import tij2_ch9.tij2_ch9.ex9.Exercise9;
@@ -20,5 +21,9 @@ public class Polymorphism {
 
         print("\nRunning Exercise 9 and 12 : ");
         Exercise9.main(args);
+
+        print("\nRunning Exercise 14 : ");
+        Exercise14.main(args);
+        System.runFinalization();    //necessary
     }
 }
