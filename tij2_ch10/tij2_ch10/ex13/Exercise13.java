@@ -3,21 +3,25 @@ import static custom_tools.tools.print.Print.print;
 
 interface base{
     public String name();
+    void f();
 }
 
 interface d1 extends base{
     int ID_1=1;
     void getID_1();
+    void f();
 }
 
 interface d2 extends base{
     int ID_2=2;
     void getID_2();
+    void f();
 }
 
 interface diamond extends d1, d2{
     int NO=3;
     void getNO();
+    void f();
 }
 
 /**
@@ -52,6 +56,12 @@ public class Exercise13 implements diamond{
         d.getID_1();
         d.getID_2();
         d.getNO();
+        d.f();
+    }
+
+    @Override
+    public void f() {
+        print("f()");
     }
 
 }
