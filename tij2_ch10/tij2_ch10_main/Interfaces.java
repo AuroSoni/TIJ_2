@@ -5,6 +5,7 @@ import tij2_ch10.tij2_ch10.ex5.Exercise5;
 import tij2_ch10.tij2_ch10.ex7.Exercise7;
 import tij2_ch10.tij2_ch10.ex9.Exercise9;
 import tij2_ch10.tij2_ch10.ex1.Exercise1;
+import tij2_ch10.tij2_ch10.ex11.Exercise11;
 import tij2_ch10.tij2_ch10.ex4.Exercise4;
 
 public class Interfaces {
@@ -27,6 +28,9 @@ public class Interfaces {
 
         print("\nRunning Exerrcise 9 and 10 : ");
         Exercise9.main(args);
+
+        print("\nRunning Machaxx Exerrcise 11 : ");
+        Exercise11.main(args);
     }
 }
 
