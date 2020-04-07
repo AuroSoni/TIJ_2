@@ -8,6 +8,7 @@ import tij2_ch10.tij2_ch10.ex9.Exercise9;
 import tij2_ch10.tij2_ch10.ex1.Exercise1;
 import tij2_ch10.tij2_ch10.ex11.Exercise11;
 import tij2_ch10.tij2_ch10.ex12.Exercise12;
+import tij2_ch10.tij2_ch10.ex13.Exercise13;
 import tij2_ch10.tij2_ch10.ex4.Exercise4;
 
 public class Interfaces {
@@ -36,6 +37,9 @@ public class Interfaces {
 
         print("\nRunning Exerrcise 12 : ");
         Exercise12.main(args);
+
+        print("\nRunning Exerrcise 13(the diamond problem) : ");
+        Exercise13.main(args);
     }
 }
 
