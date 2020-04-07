@@ -1,4 +1,5 @@
 package tij2_ch10.tij2_ch10_main;
+
 import static custom_tools.tools.print.Print.print;
 
 import tij2_ch10.tij2_ch10.ex5.Exercise5;
@@ -6,6 +7,7 @@ import tij2_ch10.tij2_ch10.ex7.Exercise7;
 import tij2_ch10.tij2_ch10.ex9.Exercise9;
 import tij2_ch10.tij2_ch10.ex1.Exercise1;
 import tij2_ch10.tij2_ch10.ex11.Exercise11;
+import tij2_ch10.tij2_ch10.ex12.Exercise12;
 import tij2_ch10.tij2_ch10.ex4.Exercise4;
 
 public class Interfaces {
@@ -31,6 +33,9 @@ public class Interfaces {
 
         print("\nRunning Machaxx Exerrcise 11 : ");
         Exercise11.main(args);
+
+        print("\nRunning Exerrcise 12 : ");
+        Exercise12.main(args);
     }
 }
 
