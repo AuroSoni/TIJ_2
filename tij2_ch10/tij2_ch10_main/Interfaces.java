@@ -1,7 +1,8 @@
 package tij2_ch10.tij2_ch10_main;
 import static custom_tools.tools.print.Print.print;
 
-import tij2_ch10.tij2_ch10.Exercise5;
+import tij2_ch10.tij2_ch10.ex5.Exercise5;
+import tij2_ch10.tij2_ch10.ex7.Exercise7;
 import tij2_ch10.tij2_ch10.ex1.Exercise1;
 import tij2_ch10.tij2_ch10.ex4.Exercise4;
 
@@ -19,6 +20,9 @@ public class Interfaces {
         Exercise5 ex5=new Ex5();
         print(ex5.toString());
         print(Exercise5.ID);
+
+        print("\nRunning Exerrcise 7 : ");
+        Exercise7.main(args);
     }
 }
 
