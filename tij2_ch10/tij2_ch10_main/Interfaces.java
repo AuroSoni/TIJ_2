@@ -15,9 +15,10 @@ public class Interfaces {
         print("\nRunning Exerrcise 4 : ");
         Exercise4.main(args);
 
-        print("\nRunning Exerrcise 5 : ");
+        print("\nRunning Exerrcise 5 and 6 : ");
         Exercise5 ex5=new Ex5();
         print(ex5.toString());
+        print(Exercise5.ID);
     }
 }
 
