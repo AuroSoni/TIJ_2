@@ -1,4 +1,4 @@
-package tij2_ch11.tij2_ch11;
+package tij2_ch11.tij2_ch11.ex7;
 import static custom_tools.tools.print.Print.print;
 
 class Outer{
