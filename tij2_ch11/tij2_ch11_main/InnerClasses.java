@@ -3,6 +3,7 @@ package tij2_ch11.tij2_ch11_main;
 import static custom_tools.tools.print.Print.print;
 
 import tij2_ch11.tij2_ch11.Exercise7;
+import tij2_ch11.tij2_ch11.Exercise9;
 import tij2_ch11.tij2_ch11.ex1.Exercise1;
 import tij2_ch11.tij2_ch11.ex2.Exercise2;
 import tij2_ch11.tij2_ch11.ex3.Exercise3;
@@ -24,5 +25,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 7 & 8: ");
         Exercise7.main(args);
+
+        print("\nRunning Exercise 9 & 10: ");
+        Exercise9.main(args);
     }
 }
