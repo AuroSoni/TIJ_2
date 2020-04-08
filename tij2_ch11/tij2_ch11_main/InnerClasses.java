@@ -4,6 +4,7 @@ import static custom_tools.tools.print.Print.print;
 
 import tij2_ch11.tij2_ch11.ex1.Exercise1;
 import tij2_ch11.tij2_ch11.ex2.Exercise2;
+import tij2_ch11.tij2_ch11.ex3.Exercise3;
 
 public class InnerClasses {
     public static void main(String[] args) {
@@ -12,5 +13,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 2 : ");
         Exercise2.main(args);
+
+        print("\nRunning Exercise 3 : ");
+        Exercise3.main(args);
     }
 }
