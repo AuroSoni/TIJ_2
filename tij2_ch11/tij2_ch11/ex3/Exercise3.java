@@ -27,7 +27,8 @@ class Outer{
 public class Exercise3 {
     public static void main(String[] args) {
         Outer o=new Outer("Auro");
-        Outer.Inner i= o.inner();
+        //Outer.Inner i= o.inner();
+        Outer.Inner i= o.new Inner();   //TO use .new as per Ex5
         print(i.toString());
     }
 }
