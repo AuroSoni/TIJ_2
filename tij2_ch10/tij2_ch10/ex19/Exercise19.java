@@ -1,4 +1,4 @@
-package tij2_ch10.tij2_ch10.ex18;
+package tij2_ch10.tij2_ch10.ex19;
 import static custom_tools.tools.print.Print.print;
 
 import java.util.Random;
@@ -48,7 +48,7 @@ class TossFactory implements ChanceFactory {
  * Create a framework using Factory Methods that performs both coin tossing and
  * dice tossing.
  */
-public class Exercise18 {
+public class Exercise19 {
     public static void choose(ChanceFactory chanceFactory) {
         Chance ch = chanceFactory.generate();
         ch.chance();
