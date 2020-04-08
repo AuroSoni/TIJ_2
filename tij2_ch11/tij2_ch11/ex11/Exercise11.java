@@ -40,5 +40,6 @@ public class Exercise11 {
         vi.name();
         //! Inner in=i.new Inner();
         //! i.name();
+        //! ((Inner)visible).name();
     }
 }
