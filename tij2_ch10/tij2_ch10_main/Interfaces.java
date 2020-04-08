@@ -12,6 +12,7 @@ import tij2_ch10.tij2_ch10.ex13.Exercise13;
 import tij2_ch10.tij2_ch10.ex14.Exercise14;
 import tij2_ch10.tij2_ch10.ex15.Exercise15;
 import tij2_ch10.tij2_ch10.ex16.Exercise16;
+import tij2_ch10.tij2_ch10.ex18.Exercise18;
 import tij2_ch10.tij2_ch10.ex19.Exercise19;
 import tij2_ch10.tij2_ch10.ex4.Exercise4;
 
@@ -53,6 +54,9 @@ public class Interfaces {
 
         print("\nRunning Exercise 16 : ");
         Exercise16.main(args);
+
+        print("\nRunning Exercise 18 : ");
+        Exercise18.main(args);
 
         print("\nRunning Exercise 19(Factory Method Strategy) : ");
         Exercise19.main(args);
