@@ -5,6 +5,7 @@ import static custom_tools.tools.print.Print.print;
 import tij2_ch11.tij2_ch11.ex7.Exercise7;
 import tij2_ch11.tij2_ch11.ex9.Exercise9;
 import tij2_ch11.tij2_ch11.ex1.Exercise1;
+import tij2_ch11.tij2_ch11.ex11.Exercise11;
 import tij2_ch11.tij2_ch11.ex2.Exercise2;
 import tij2_ch11.tij2_ch11.ex3.Exercise3;
 import tij2_ch11.tij2_ch11.ex6.Exercise6;
@@ -17,16 +18,19 @@ public class InnerClasses {
         print("\nRunning Exercise 2 and 4 : ");
         Exercise2.main(args);
 
-        print("\nRunning Exercise 3 & 5: ");
+        print("\nRunning Exercise 3 & 5 : ");
         Exercise3.main(args);
 
-        print("\nRunning Exercise 6: ");
+        print("\nRunning Exercise 6 : ");
         Exercise6.main(args);
 
-        print("\nRunning Exercise 7 & 8: ");
+        print("\nRunning Exercise 7 & 8 : ");
         Exercise7.main(args);
 
-        print("\nRunning Exercise 9 & 10: ");
+        print("\nRunning Exercise 9 & 10 : ");
         Exercise9.main(args);
+
+        print("\nRunning Exercise 11 : ");
+        Exercise11.main(args);
     }
 }
