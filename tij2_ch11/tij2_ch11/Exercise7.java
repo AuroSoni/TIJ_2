@@ -22,7 +22,7 @@ class Outer{
         print("Outer.call()");
         Inner i=new Inner();
         i.modify(j);
-        i.ref++;     //Outer class has access to all private fields and methods of Inner class.
+        print("ref: "+i.ref++);     //Outer class has access to all private fields and methods of Inner class.
     }
 }
 
