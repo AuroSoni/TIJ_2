@@ -25,7 +25,7 @@ public class RandomWords implements Readable {
     }   
     public static void main(String[] args) {     
         Scanner s = new Scanner(new RandomWords(10));     
-        while(s.hasNext())        //s.hasNext() handles the read ploymorphism   
+        while(s.hasNext())        //s.hasNext() handles the read ploymorphism. There is call to source.read() involve here.
         System.out.println(s.next());   
     } 
 }
