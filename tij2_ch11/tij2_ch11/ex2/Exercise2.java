@@ -7,7 +7,8 @@ import static custom_tools.tools.print.Print.print;
 interface Selector {   
     boolean end();   
     Object current();   
-    void next(); 
+    void next();
+    Sequence ref();
 }  
  
 class Sequence {   
@@ -22,21 +23,34 @@ class Sequence {
     
     class SequenceSelector implements Selector {
         private int i = 0;
-
+        @Override
         public boolean end() {
             return i == items.length;
         }
-
+        @Override
         public Object current() {
             return items[i];
         }
-
+        @Override
         public void next() {
             if (i < items.length)
                 i++;
         }
+
+        /**
+         * Ex4 : Add a method to the class Sequence.SequenceSelector that produces the
+         * reference to the outer class Sequence.
+         */
+        @Override
+        public Sequence ref() {
+            return Sequence.this;
+        }
     }
 
+    public String toString(){
+        return this.getClass().getSimpleName();
+    }
+    
     public Selector selector() {
         return new SequenceSelector();
     }
@@ -72,5 +86,6 @@ public class Exercise2 {
             print(s.current());
             s.next();
         }
+        print("\nExercise 4: ",s.ref());
     }
 }

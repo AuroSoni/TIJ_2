@@ -11,7 +11,7 @@ public class InnerClasses {
         print("Running Exercise 1 : ");
         Exercise1.main(args);
 
-        print("\nRunning Exercise 2 : ");
+        print("\nRunning Exercise 2 and 4 : ");
         Exercise2.main(args);
 
         print("\nRunning Exercise 3 : ");
