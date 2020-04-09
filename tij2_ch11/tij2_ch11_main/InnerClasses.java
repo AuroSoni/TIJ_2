@@ -11,6 +11,7 @@ import tij2_ch11.tij2_ch11.ex13.Exercise13;
 import tij2_ch11.tij2_ch11.ex16.Exercise16;
 import tij2_ch11.tij2_ch11.ex17.Exercise17;
 import tij2_ch11.tij2_ch11.ex18.Exercise18;
+import tij2_ch11.tij2_ch11.ex19.Exercise19;
 import tij2_ch11.tij2_ch11.ex2.Exercise2;
 import tij2_ch11.tij2_ch11.ex3.Exercise3;
 import tij2_ch11.tij2_ch11.ex6.Exercise6;
@@ -52,5 +53,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 18 : ");
         Exercise18.main(args);
+
+        print("\nRunning Exercise 19 : ");
+        Exercise19.main(args);
     }
 }
