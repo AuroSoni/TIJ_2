@@ -9,6 +9,7 @@ import tij2_ch11.tij2_ch11.ex11.Exercise11;
 import tij2_ch11.tij2_ch11.ex12.Exercise12;
 import tij2_ch11.tij2_ch11.ex13.Exercise13;
 import tij2_ch11.tij2_ch11.ex16.Exercise16;
+import tij2_ch11.tij2_ch11.ex17.Exercise17;
 import tij2_ch11.tij2_ch11.ex2.Exercise2;
 import tij2_ch11.tij2_ch11.ex3.Exercise3;
 import tij2_ch11.tij2_ch11.ex6.Exercise6;
@@ -44,5 +45,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 16(Factory method using Anoymous classes) : ");
         Exercise16.main(args);
+
+        print("\nRunning Exercise 17(Factory method using Anoymous classes) : ");
+        Exercise17.main(args);
     }
 }
