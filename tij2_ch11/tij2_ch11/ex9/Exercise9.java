@@ -13,12 +13,6 @@ interface Wash{
     */
     void wash();
 }
-interface Face extends Smudge,Wash{
-    /**
-     * tells face status
-     */
-    void look(); 
-}
 
 
 /**
