@@ -11,4 +11,14 @@ public class Print{
             System.out.println(object);
         }
     }
+    public static void printnb(String ...args){
+        for (String string : args) {
+            System.out.print(string);
+        }
+    }
+    public static void printnb(Object... args){
+        for (Object object : args) {
+            System.out.print(object);
+        }
+    }
 } 
