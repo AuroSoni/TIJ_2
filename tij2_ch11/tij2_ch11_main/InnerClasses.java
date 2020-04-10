@@ -4,7 +4,7 @@ import static custom_tools.tools.print.Print.print;
 
 import tij2_ch11.tij2_ch11.ex7.Exercise7;
 import tij2_ch11.tij2_ch11.ex9.Exercise9;
-import tij2_ch11.tij2_ch11.Exercise22;
+import tij2_ch11.tij2_ch11.ex22.Exercise22;
 import tij2_ch11.tij2_ch11.ex1.Exercise1;
 import tij2_ch11.tij2_ch11.ex11.Exercise11;
 import tij2_ch11.tij2_ch11.ex12.Exercise12;

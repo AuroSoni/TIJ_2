@@ -1,4 +1,4 @@
-package tij2_ch11.tij2_ch11;
+package tij2_ch11.tij2_ch11.ex22;
 import static custom_tools.tools.print.Print.*;
 
 interface Selector {   
