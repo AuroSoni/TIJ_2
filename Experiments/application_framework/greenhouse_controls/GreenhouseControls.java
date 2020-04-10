@@ -61,6 +61,41 @@ public class GreenhouseControls extends Controller {
             return "Greenhouse water is off";     
         }   
     }   
+    private boolean fans=false;
+    public class FansOn extends Event{
+
+        public FansOn(long delayTime) {
+            super(delayTime);
+        }
+
+        @Override
+        public void action() {
+            fans=true;
+            print("fans : "+fans);
+        }
+        @Override
+        public String toString(){
+            return "Turning On Fans";
+        }
+
+    }
+    public class FansOff extends Event{
+
+        public FansOff(long delayTime) {
+            super(delayTime);
+        }
+
+        @Override
+        public void action() {
+            fans=false;
+            print("fans : "+fans);
+        }
+        @Override
+        public String toString(){
+            return "Turning Off Fans";
+        }
+
+    }
     private String thermostat = "Day";    
     public class ThermostatNight extends Event {     
         public ThermostatNight(long delayTime) {       
