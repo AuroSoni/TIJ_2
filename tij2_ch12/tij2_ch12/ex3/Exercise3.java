@@ -19,7 +19,6 @@ interface ReverseSelector{
  
 class UnlimitedSequence {   
     private List<Object> items=new ArrayList<>();   
-    private int next = 0; 
 
     public void add(Object x) {     
         items.add(x);
