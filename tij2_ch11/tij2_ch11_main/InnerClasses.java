@@ -7,6 +7,7 @@ import tij2_ch11.tij2_ch11.ex7.Exercise7;
 import tij2_ch11.tij2_ch11.ex9.Exercise9;
 import tij2_ch11.tij2_ch11.ex22.Exercise22;
 import tij2_ch11.tij2_ch11.ex23.Exercise23;
+import tij2_ch11.tij2_ch11.ex26.Exercise26;
 import tij2_ch11.tij2_ch11.ex1.Exercise1;
 import tij2_ch11.tij2_ch11.ex11.Exercise11;
 import tij2_ch11.tij2_ch11.ex12.Exercise12;
@@ -76,5 +77,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 24 and 25 : ");
         GreenhouseController.main(args);
+
+        print("\nRunning Exercise 26 : ");
+        Exercise26.main(args);
     }
 }
