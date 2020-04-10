@@ -65,9 +65,10 @@ class Sequence {
  * Implement reverseSelector( ) in Sequence.java
  */
 public class Exercise22 {
+    public static int no=10;
     public static void main(String[] args) {
-        Sequence sequence = new Sequence(10);     
-        for(int i = 0; i < 10; i++)       
+        Sequence sequence = new Sequence(no);     
+        for(int i = 0; i < no; i++)       
         sequence.add(Integer.toString(i));     
         Selector selector = sequence.selector(); 
         print("Selector");    
