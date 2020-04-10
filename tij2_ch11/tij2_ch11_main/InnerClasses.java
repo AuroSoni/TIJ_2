@@ -2,6 +2,7 @@ package tij2_ch11.tij2_ch11_main;
 
 import static custom_tools.tools.print.Print.print;
 
+import experiments.application_framework.greenhouse_controls.GreenhouseController;
 import tij2_ch11.tij2_ch11.ex7.Exercise7;
 import tij2_ch11.tij2_ch11.ex9.Exercise9;
 import tij2_ch11.tij2_ch11.ex22.Exercise22;
@@ -72,5 +73,8 @@ public class InnerClasses {
 
         print("\nRunning Exercise 23 : ");
         Exercise23.main(args);
+
+        print("\nRunning Exercise 24 and 25 : ");
+        GreenhouseController.main(args);
     }
 }

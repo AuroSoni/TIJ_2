@@ -96,6 +96,31 @@ public class GreenhouseControls extends Controller {
         }
 
     }
+    private boolean mist=false;
+    public class MistOn extends Event{
+        public MistOn(long delayTime){
+            super(delayTime);
+        }
+        public void action(){
+            mist=true;
+            print("mist : "+mist);
+        }
+        public String toString(){
+            return "Mist is On";
+        }
+    }
+    public class MistOff extends Event{
+        public MistOff(long delayTime){
+            super(delayTime);
+        }
+        public void action(){
+            mist=false;
+            print("mist : "+mist);
+        }
+        public String toString(){
+            return "Mist is Off";
+        }
+    }
     private String thermostat = "Day";    
     public class ThermostatNight extends Event {     
         public ThermostatNight(long delayTime) {       
