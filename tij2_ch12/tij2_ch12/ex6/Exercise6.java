@@ -1,4 +1,4 @@
-package tij2_ch12.tij2_ch12;
+package tij2_ch12.tij2_ch12.ex6;
 import java.util.*;
 import static custom_tools.tools.print.Print.*;
 
