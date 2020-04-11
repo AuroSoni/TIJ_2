@@ -3,6 +3,7 @@ import static custom_tools.tools.print.Print.*;
 
 import tij2_ch12.tij2_ch12.ex6.Exercise6;
 import tij2_ch12.tij2_ch12.ex7.Exercise7;
+import tij2_ch12.tij2_ch12.ex8.Exercise8;
 import tij2_ch12.tij2_ch12.ex1.Exercise1;
 import tij2_ch12.tij2_ch12.ex2.Exercise2;
 import tij2_ch12.tij2_ch12.ex3.Exercise3;
@@ -32,5 +33,8 @@ public class HoldingYourObjects {
 
         print("\nRunning Exercise 7 : ");
         Exercise7.main(args);
+
+        print("\nRunning Exercise 8 : ");
+        Exercise8.main(args);
     }
 }
