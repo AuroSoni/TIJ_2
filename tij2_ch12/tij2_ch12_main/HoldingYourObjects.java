@@ -5,6 +5,7 @@ import tij2_ch12.tij2_ch12.ex1.Exercise1;
 import tij2_ch12.tij2_ch12.ex2.Exercise2;
 import tij2_ch12.tij2_ch12.ex3.Exercise3;
 import tij2_ch12.tij2_ch12.ex4.Exercise4;
+import tij2_ch12.tij2_ch12.ex5.Exercise5;
 
 public class HoldingYourObjects {
     public static void main(String[] args) {
@@ -20,5 +21,8 @@ public class HoldingYourObjects {
 
         print("\n\nRunning Exercise 4 : ");
         Exercise4.main(args);
+
+        print("\nRunning Exercise 5 : ");
+        Exercise5.main(args);
     }
 }
