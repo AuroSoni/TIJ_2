@@ -10,6 +10,7 @@ import tij2_ch12.tij2_ch12.ex1.Exercise1;
 import tij2_ch12.tij2_ch12.ex10.Exercise10;
 import tij2_ch12.tij2_ch12.ex11.Exercise11;
 import tij2_ch12.tij2_ch12.ex12.Exercise12;
+import tij2_ch12.tij2_ch12.ex14.Exercise14;
 import tij2_ch12.tij2_ch12.ex2.Exercise2;
 import tij2_ch12.tij2_ch12.ex3.Exercise3;
 import tij2_ch12.tij2_ch12.ex4.Exercise4;
@@ -56,5 +57,8 @@ public class HoldingYourObjects {
 
         print("Running Exercise 13 : (Revisit)");
         GreenhouseController.main(args);
+
+        print("\nRunning Exercise 14 : ");
+        Exercise14.main(args);
     }
 }
