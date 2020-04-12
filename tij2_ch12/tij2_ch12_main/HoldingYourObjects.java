@@ -1,6 +1,7 @@
 package tij2_ch12.tij2_ch12_main;
 import static custom_tools.tools.print.Print.*;
 
+import experiments.application_framework.greenhouse_controls.GreenhouseController;
 import tij2_ch12.tij2_ch12.ex6.Exercise6;
 import tij2_ch12.tij2_ch12.ex7.Exercise7;
 import tij2_ch12.tij2_ch12.ex8.Exercise8;
@@ -52,5 +53,8 @@ public class HoldingYourObjects {
 
         print("\nRunning Exercise 12 : ");
         Exercise12.main(args);
+
+        print("Running Exercise 13 : (Revisit)");
+        GreenhouseController.main(args);
     }
 }
