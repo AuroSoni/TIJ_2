@@ -6,7 +6,7 @@ import tij2_ch12.tij2_ch12.ex6.Exercise6;
 import tij2_ch12.tij2_ch12.ex7.Exercise7;
 import tij2_ch12.tij2_ch12.ex8.Exercise8;
 import tij2_ch12.tij2_ch12.ex9.Exercise9;
-import tij2_ch12.tij2_ch12.Exercise15;
+import tij2_ch12.tij2_ch12.ex15.Exercise15;
 import tij2_ch12.tij2_ch12.ex1.Exercise1;
 import tij2_ch12.tij2_ch12.ex10.Exercise10;
 import tij2_ch12.tij2_ch12.ex11.Exercise11;
