@@ -1,4 +1,4 @@
-package custom_tools.tools.range;
+package custom_tools.range;
 
 public class Range {
     int r=0;

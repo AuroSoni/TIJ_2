@@ -1,5 +1,5 @@
 package tij2_ch10.tij2_ch10.ex19;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 import java.util.Random;
 

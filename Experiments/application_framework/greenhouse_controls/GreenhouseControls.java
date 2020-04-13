@@ -2,7 +2,7 @@ package experiments.application_framework.greenhouse_controls;
 
 import experiments.application_framework.Controller;
 import experiments.application_framework.Event;
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 public class GreenhouseControls extends Controller {   
     private boolean light = false;   

@@ -1,4 +1,4 @@
-package custom_tools.tools.print;
+package custom_tools.print;
 
 public class Print{
     public static void print(String ...args){

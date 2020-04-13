@@ -1,5 +1,5 @@
 package experiments;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 class Characteristic {   
     private String s;   

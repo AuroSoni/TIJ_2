@@ -1,5 +1,5 @@
 package tij2_ch9.tij2_ch9_main;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 import tij2_ch9.tij2_ch9.ex1.Exercise1;
 import tij2_ch9.tij2_ch9.ex13.Exercise13;

@@ -1,5 +1,5 @@
 package tij2_ch8.tij2_ch8.ex20;
-import static tij2_ch8.tij2_ch8.tools.tools.print;
+import static custom_tools.print.Print.*;
 
 class WithFinals {   
     // Identical to "private" alone:   

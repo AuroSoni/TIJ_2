@@ -1,5 +1,5 @@
 package tij2_ch11.tij2_ch11.ex21;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 interface Inter{
     class Nested{

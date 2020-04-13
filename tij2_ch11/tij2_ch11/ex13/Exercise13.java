@@ -1,6 +1,6 @@
 package tij2_ch11.tij2_ch11.ex13;
 import tij2_ch11.tij2_ch11.ex9.Face;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 /**
  * Repeat Exercise 9 using an anonymous inner class.  

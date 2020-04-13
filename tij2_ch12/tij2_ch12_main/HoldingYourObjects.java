@@ -1,5 +1,5 @@
 package tij2_ch12.tij2_ch12_main;
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 import experiments.application_framework.greenhouse_controls.GreenhouseController;
 import tij2_ch12.tij2_ch12.ex6.Exercise6;

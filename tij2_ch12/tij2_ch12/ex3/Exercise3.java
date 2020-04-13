@@ -1,6 +1,6 @@
 package tij2_ch12.tij2_ch12.ex3;
 
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,5 @@
 package tij2_ch10.tij2_ch10.ex12;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 interface CanFight {   
     void fight(); 

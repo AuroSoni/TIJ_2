@@ -1,5 +1,5 @@
 package tij2_ch8.tij2_ch8.ex24;
-import static tij2_ch8.tij2_ch8.tools.tools.print;
+import static custom_tools.print.Print.*;
 
 class Insect {   
     private int i = 9;   

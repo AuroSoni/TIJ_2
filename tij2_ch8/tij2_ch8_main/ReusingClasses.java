@@ -13,7 +13,7 @@ import tij2_ch8.tij2_ch8.ex6.Exercise6;
 import tij2_ch8.tij2_ch8.ex7.Exercise7;
 import tij2_ch8.tij2_ch8.ex8.Exercise8;
 import tij2_ch8.tij2_ch8.ex9.Exercise9;
-import static tij2_ch8.tij2_ch8.tools.tools.print;
+import static custom_tools.print.Print.*;
 
 import tij2_ch8.tij2_ch8.ex20.Exercise20;
 import tij2_ch8.tij2_ch8.ex23.Exercise23;

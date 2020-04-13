@@ -2,7 +2,7 @@ package tij2_ch11.tij2_ch11.ex2;
 
 import java.util.Random;
 
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 interface Selector {   
     boolean end();   

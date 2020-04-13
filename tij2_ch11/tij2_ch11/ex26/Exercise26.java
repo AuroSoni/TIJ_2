@@ -1,5 +1,5 @@
 package tij2_ch11.tij2_ch11.ex26;
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 class WithInner{
     private int a;

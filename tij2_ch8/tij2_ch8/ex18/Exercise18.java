@@ -1,5 +1,5 @@
 package tij2_ch8.tij2_ch8.ex18;
-import static tij2_ch8.tij2_ch8.tools.tools.print;
+import static custom_tools.print.Print.*;
 
 /**
  * Create a class with a static final field and a final field 

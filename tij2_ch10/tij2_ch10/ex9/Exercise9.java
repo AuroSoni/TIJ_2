@@ -1,5 +1,5 @@
 package tij2_ch10.tij2_ch10.ex9;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 /**
  * Modify Musics.java by adding a Playable interface. 

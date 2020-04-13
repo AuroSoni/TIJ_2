@@ -1,6 +1,6 @@
 package tij2_ch12.tij2_ch12.ex6;
 import java.util.*;
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 /**
  * Modify ListFeatures.java(aka Exeercise5) so that it uses Strings instead of Pets, and explain any difference in results.

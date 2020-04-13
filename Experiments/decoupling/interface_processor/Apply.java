@@ -1,5 +1,5 @@
 package experiments.decoupling.interface_processor;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 /**
  * Apply class is just crated to use the static process method which 

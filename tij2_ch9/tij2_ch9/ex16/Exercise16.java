@@ -1,5 +1,5 @@
 package tij2_ch9.tij2_ch9.ex16;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 enum Alert_Level{
     COMMON,URGENT,FATAL;

@@ -1,6 +1,6 @@
 package tij2_ch9.tij2_ch9.ex2;
 
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 import java.util.Random;
 

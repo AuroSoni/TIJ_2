@@ -1,5 +1,5 @@
 package tij2_ch9.tij2_ch9.ex13;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 class Shared {   
     private int refcount = 0;   

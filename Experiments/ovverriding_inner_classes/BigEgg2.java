@@ -1,5 +1,5 @@
 package experiments.ovverriding_inner_classes;
-import static custom_tools.tools.print.Print.*;
+import static custom_tools.print.Print.*;
 
 class Egg2 {   
     protected class Yolk {     

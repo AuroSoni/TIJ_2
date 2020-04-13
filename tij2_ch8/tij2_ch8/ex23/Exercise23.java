@@ -1,5 +1,5 @@
 package tij2_ch8.tij2_ch8.ex23;
-import static tij2_ch8.tij2_ch8.tools.tools.print;
+import static custom_tools.print.Print.*;
 
 class General{
     public static int message(String s,int i){

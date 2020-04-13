@@ -1,5 +1,5 @@
 package tij2_ch11.tij2_ch11.ex6;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 public class OuterClass {
     OuterClass(){

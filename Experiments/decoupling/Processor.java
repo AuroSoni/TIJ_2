@@ -1,7 +1,7 @@
 package experiments.decoupling;
 
 import java.util.Arrays;
-import static custom_tools.tools.print.Print.print;
+import static custom_tools.print.Print.print;
 
 /**
  * Implementing processor as a class restricts its reusability.
