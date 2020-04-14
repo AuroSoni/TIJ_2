@@ -13,12 +13,13 @@ import custom_tools.myio.TextFile;
  */
 public class Exercise25 {
     static int word_count=0;
-    public static void main(String[] args) {
+    public static HashMap<String,ArrayList<Integer>> map;
+    public static void instantiate(){
         MapUtility<String,ArrayList<Integer>>mu=new MapUtility<String,ArrayList<Integer>>() {
         };
         LinkedList<String> wordList=new LinkedList<>();
-        wordList.addAll(new TextFile("C:/Users/aurok/OneDrive/Documents/Consider the discrete time description of a multidimensional System.docx","\\W+"));
-        HashMap<String,ArrayList<Integer>>map=mu.fill(wordList, new ArrayList<>());
+        wordList.addAll(new TextFile("C:/Users/aurok/OneDrive/Documents/java_projects_tij_2/tij2_ch3/tij2_ch3/EverythingIsAnObject.java","\\W+"));
+        map=mu.fill(wordList, new ArrayList<>());
         Iterator<String> it=wordList.iterator();
         while(it.hasNext()){
             String s=it.next();
@@ -30,6 +31,9 @@ public class Exercise25 {
             list.add(word_count);
             map.put(s, list);
         }
+    }
+    public static void main(String[] args) {
+        instantiate();
         print(map);
     }
 }
