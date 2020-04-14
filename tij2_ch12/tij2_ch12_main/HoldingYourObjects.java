@@ -67,10 +67,11 @@ public class HoldingYourObjects {
         print("\nRunning Exercise 15 : ");
         Exercise15.main(args);
 
-        print("\nRunning Exercise 16 (New Utility discovered): ");
+        print("\nRunning Exercise 16 and 20 (New Utility discovered): ");
         Exercise16.main(args);
 
         print("\nRunning Exercise 17 : ");
         Exercise17.main(args);
+
     }
 }

@@ -23,7 +23,7 @@ public class Exercise16 extends MapUtility<Character,Integer>{
          */
         LinkedHashMap<Character,Integer> vowelCount=mu.fill(vowels, Arrays.asList(0,0,0,0,0,0,0,0,0,0));
         HashSet<String> words=new HashSet<>();
-        for (String word : new TextFile("tij2_ch12/tij2_ch12/Exercise16.java","\\W+"))  {
+        for (String word : new TextFile("C:/Users/aurok/OneDrive/Documents/Consider the discrete time description of a multidimensional System.docx","\\W+"))  {
             if(!words.contains(word)){
                 int vowels_in_word=0;
                 printnb(word + " : ");
