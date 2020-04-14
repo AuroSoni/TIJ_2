@@ -63,4 +63,33 @@ public abstract class MapUtility<T, V> {
     public LinkedHashMap<T, V> fill(Collection<T> t, Collection<V> v){
         return this.fill(t, v,Type.NORMAL);
     }
+
+    public LinkedHashMap<Character,V> sortByKeyCharacter(Map<Character,V> map){
+        List<Character> list=new LinkedList<>();
+        LinkedHashMap<Character,V> linkedMap=new LinkedHashMap<>();
+        list.addAll(map.keySet());
+        Collections.sort(list);
+        for (Character character : list) {
+            for (Character character2 : map.keySet()) {
+                if(character==character2){
+                    linkedMap.put(character, map.get(character2));
+                }
+            }
+        }
+        return linkedMap;
+    }
+    public LinkedHashMap<String,V> sortByKeyString(Map<String,V> map){
+        List<String> list=new LinkedList<>();
+        LinkedHashMap<String,V> linkedMap=new LinkedHashMap<>();
+        list.addAll(map.keySet());
+        Collections.sort(list);
+        for (String string : list) {
+            for (String string2 : map.keySet()) {
+                if(string==string2){
+                    linkedMap.put(string, map.get(string2));
+                }
+            }
+        }
+        return linkedMap;
+    }
 }
