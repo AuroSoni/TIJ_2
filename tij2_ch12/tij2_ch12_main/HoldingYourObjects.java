@@ -17,6 +17,7 @@ import tij2_ch12.tij2_ch12.ex14.Exercise14;
 import tij2_ch12.tij2_ch12.ex2.Exercise2;
 import tij2_ch12.tij2_ch12.ex21.Exercise21;
 import tij2_ch12.tij2_ch12.ex22.Exercise22;
+import tij2_ch12.tij2_ch12.ex23.Exercise23;
 import tij2_ch12.tij2_ch12.ex3.Exercise3;
 import tij2_ch12.tij2_ch12.ex4.Exercise4;
 import tij2_ch12.tij2_ch12.ex5.Exercise5;
@@ -80,5 +81,8 @@ public class HoldingYourObjects {
 
         print("\nRunning Exercise 22 : ");
         Exercise22.main(args);
+
+        print("\nRunning Exercise 23 : ");
+        Exercise23.main(args);
     }
 }
