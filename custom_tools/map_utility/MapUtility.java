@@ -25,7 +25,24 @@ public abstract class MapUtility<T, V> {
         }
         return li;
     }
-    public LinkedHashMap<T, V> fill(Collection<T> t, Collection<V> v) {
+    public Collection<Integer> zeroTs(int i){
+        Collection<Integer> zeroList=new LinkedList<>();
+        for (int j = 0; j < i; j++) {
+            zeroList.add(0);   //To be modified
+        }
+        return zeroList;
+    }
+    // public Collection<V> zeroTs(int i){
+    //     Collection<V> zeroList=new LinkedList<>();
+    //     for (int j = 0; j < i; j++) {
+    //         zeroList.add(null);   //To be modified
+    //     }
+    //     return zeroList;
+    // }
+    public LinkedHashMap<T, V> fill(Collection<T> t, Collection<V> v,Type z) {
+        if(z==Type.ALLDEFAULT){
+            //Do sth
+        }
         LinkedHashMap<T,V> map =new LinkedHashMap<>();
         if(t.size()<v.size()){
             print("Incompatible lists supplied");
@@ -42,5 +59,8 @@ public abstract class MapUtility<T, V> {
             }
         }
         return map;
+    }
+    public LinkedHashMap<T, V> fill(Collection<T> t, Collection<V> v){
+        return this.fill(t, v,Type.NORMAL);
     }
 }
