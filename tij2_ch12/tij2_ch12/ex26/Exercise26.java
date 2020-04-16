@@ -1,4 +1,4 @@
-package tij2_ch12.tij2_ch12;
+package tij2_ch12.tij2_ch12.ex26;
 import java.util.*;
 
 import tij2_ch12.tij2_ch12.ex25.Exercise25;
