@@ -104,5 +104,7 @@ public class HoldingYourObjects {
 
         print("\nRunning Exercise 28 : ");
         Exercise28.main(args);
+
+        print("\nExercise 29 done through 28.");
     }
 }
