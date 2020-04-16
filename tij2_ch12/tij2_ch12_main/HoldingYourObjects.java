@@ -1,4 +1,5 @@
 package tij2_ch12.tij2_ch12_main;
+
 import static custom_tools.print.Print.*;
 
 import experiments.application_framework.greenhouse_controls.GreenhouseController;
@@ -24,6 +25,7 @@ import tij2_ch12.tij2_ch12.ex22.Exercise22;
 import tij2_ch12.tij2_ch12.ex23.Exercise23;
 import tij2_ch12.tij2_ch12.ex24.Exercise24;
 import tij2_ch12.tij2_ch12.ex3.Exercise3;
+import tij2_ch12.tij2_ch12.ex31.Exercise31;
 import tij2_ch12.tij2_ch12.ex4.Exercise4;
 import tij2_ch12.tij2_ch12.ex5.Exercise5;
 
@@ -106,5 +108,10 @@ public class HoldingYourObjects {
         Exercise28.main(args);
 
         print("\nExercise 29 done through 28.");
+
+        print("\nExercise30 pending ...");
+
+        print("\nRunning Exercise 31 : ");
+        Exercise31.main(args);
     }
 }
