@@ -1,6 +1,7 @@
 package tij2_ch13.tij2_ch13_main;
 import static custom_tools.print.Print.*;
 
+import tij2_ch13.tij2_ch13.ex4.Exercise4;
 import tij2_ch13.tij2_ch13.ex1.Exercise1;
 import tij2_ch13.tij2_ch13.ex2.Exercise2;
 import tij2_ch13.tij2_ch13.ex3.Exercise3;
@@ -16,5 +17,8 @@ public class ErrorHandlingWithExceptions{
 
         print("\nRuning Exercise 3 : ");
         Exercise3.main(args);
+
+        print("\nRuning Exercise 4 : ");
+        Exercise4.main(args);
     }
 }
