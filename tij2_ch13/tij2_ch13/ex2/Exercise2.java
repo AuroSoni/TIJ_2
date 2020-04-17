@@ -8,6 +8,7 @@ import static custom_tools.print.Print.*;
  * Now wrap the code in a try-catch clause to catch the exception.  
  */
 public class Exercise2 {
+    @SuppressWarnings("all")
     public static void main(String[] args) {
         Exercise2 ex2=null;
         try{
