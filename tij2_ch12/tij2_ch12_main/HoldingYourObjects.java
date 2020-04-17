@@ -113,5 +113,8 @@ public class HoldingYourObjects {
 
         print("\nRunning Exercise 31 : ");
         Exercise31.main(args);
+
+        print("\nRunning Exercise 32 : ");
+        Exercise32.main(args);
     }
 }

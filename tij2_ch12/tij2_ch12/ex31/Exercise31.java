@@ -13,9 +13,9 @@ import experiments.polymorphism.Shape;
  * Verify that it works.
  */
 public class Exercise31 extends RandomShapeGenerator implements Iterable<Shape> {
-    int last_index=0;
-    Shape[] shapes=new Shape[10];
-    Exercise31(int i){
+    protected int last_index=0;
+    protected Shape[] shapes=new Shape[10];
+    protected Exercise31(int i){
         last_index=i;
 
         print("Hello");
