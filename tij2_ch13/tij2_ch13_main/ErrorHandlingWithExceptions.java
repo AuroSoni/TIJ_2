@@ -6,6 +6,7 @@ import tij2_ch13.tij2_ch13.ex5.Exercise5;
 import tij2_ch13.tij2_ch13.ex6.Exercise6;
 import tij2_ch13.tij2_ch13.ex8.Exercise8;
 import tij2_ch13.tij2_ch13.ex9.Exercise9;
+import tij2_ch13.tij2_ch13.Exercise20;
 import tij2_ch13.tij2_ch13.Naughty;
 import tij2_ch13.tij2_ch13.ex1.Exercise1;
 import tij2_ch13.tij2_ch13.ex10.Exercise10;
@@ -22,56 +23,59 @@ import tij2_ch13.tij2_ch13.ex3.Exercise3;
 public class ErrorHandlingWithExceptions {
     public static void main(String[] args) {
 
-        print("Runing Exercise 1 : ");
+        print("Running Exercise 1 : ");
         Exercise1.main(args);
 
-        print("\nRuning Exercise 2 : ");
+        print("\nRunning Exercise 2 : ");
         Exercise2.main(args);
 
-        print("\nRuning Exercise 3 and 7: ");
+        print("\nRunning Exercise 3 and 7: ");
         Exercise3.main(args);
 
-        print("\nRuning Exercise 4 : ");
+        print("\nRunning Exercise 4 : ");
         Exercise4.main(args);
 
-        print("\nRuning Exercise 5 : ");
+        print("\nRunning Exercise 5 : ");
         Exercise5.main(args);
 
-        print("\nRuning Exercise 6 : ");
+        print("\nRunning Exercise 6 : ");
         Exercise6.main(args);
 
-        print("\nRuning Exercise 8 : ");
+        print("\nRunning Exercise 8 : ");
         try {
             Exercise8.main(args);
         } catch (Naughty e) {
             e.printStackTrace();
         }
 
-        print("\nRuning Exercise 9 and 13 : ");
+        print("\nRunning Exercise 9 and 13 : ");
         Exercise9.main(args);
 
-        print("\nRuning Exercise 10 and 11 : ");
+        print("\nRunning Exercise 10 and 11 : ");
         Exercise10.main(args);
 
-        print("\nRuning Exercise 12 : ");
+        print("\nRunning Exercise 12 : ");
         Exercise12.main(args);
 
-        print("\nRuning Exercise 14 : ");
+        print("\nRunning Exercise 14 : ");
         Exercise14.main(args);
 
-        print("\nRuning Exercise 15 : ");
+        print("\nRunning Exercise 15 : ");
         Exercise15.main(args);
 
-        print("\nRuning Exercise 16 : ");
+        print("\nRunning Exercise 16 : ");
         Exercise16.main(args);
 
-        print("\nRuning Exercise 17 : ");
+        print("\nRunning Exercise 17 : ");
         Exercise17.main(args);
 
-        print("\nRuning Exercise 18 : ");
+        print("\nRunning Exercise 18 : ");
         Exercise18.main(args);
 
-        print("\nRuning Exercise 19 : ");
+        print("\nRunning Exercise 19 : ");
         Exercise19.main(args);
+
+        print("\nRunning Machaxx Exercise 20 : ");
+        Exercise20.main(args);
     }
 }
