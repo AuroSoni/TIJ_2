@@ -15,7 +15,7 @@ public class Exercise4 {
 
     static int index=0; 
 
-    public static void mischief() throws Naughty{
+    public static void mischief() throws Naughty {
         print("This is what happens when you are NAUGHTY!!!");
         if(index==0) throw new Naughty();
     }
