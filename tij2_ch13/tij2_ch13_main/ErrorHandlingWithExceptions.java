@@ -8,6 +8,7 @@ import tij2_ch13.tij2_ch13.ex8.Exercise8;
 import tij2_ch13.tij2_ch13.ex9.Exercise9;
 import tij2_ch13.tij2_ch13.Naughty;
 import tij2_ch13.tij2_ch13.ex1.Exercise1;
+import tij2_ch13.tij2_ch13.ex10.Exercise10;
 import tij2_ch13.tij2_ch13.ex2.Exercise2;
 import tij2_ch13.tij2_ch13.ex3.Exercise3;
 
@@ -41,5 +42,8 @@ public class ErrorHandlingWithExceptions {
 
         print("\nRuning Exercise 9 : ");
         Exercise9.main(args);
+
+        print("\nRuning Exercise 10 : ");
+        Exercise10.main(args);
     }
 }
