@@ -1,13 +1,9 @@
 package tij2_ch13.tij2_ch13.ex4;
+
 import static custom_tools.print.Print.*;
 
-class Naughty extends Exception{
+import tij2_ch13.tij2_ch13.Naughty;
 
-    /**
-     *
-     */
-    private static final long serialVersionUID = 1L;
-}
 
 /**
  * Create your own exception class using the extends keyword. 
