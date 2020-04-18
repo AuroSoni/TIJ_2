@@ -29,6 +29,8 @@ class E3 extends Exception{
 /**
  * Create three new types of exceptions. Write a class with a method that throws all three. 
  * In main( ), call the method but only use a single catch clause that will catch all three types of exceptions.
+ * (Ex13)Modify Exercise 9 by adding a finally clause. Verify that your finally clause is executed, 
+ * even if a NullPointerException is thrown.
  */
 public class Exercise9 {
     static int index=0;
@@ -50,12 +52,22 @@ public class Exercise9 {
         while(true){
             try {
                 muti_thrower();
+                break;
             } catch (Exception e) {
                 print(e.getClass().getSimpleName());
                 index++;
                 continue;
             }
-            break;
+            finally{           //Outer
+                try {
+                    throw new NullPointerException();
+                } catch (Exception e) {
+                    print(e.getClass().getSimpleName());
+                }finally{
+                    print("in Inner");
+                }
+                print("in Outer");
+            }
         }
     }
 }

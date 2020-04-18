@@ -41,7 +41,7 @@ public class ErrorHandlingWithExceptions {
             e.printStackTrace();
         }
 
-        print("\nRuning Exercise 9 : ");
+        print("\nRuning Exercise 9 and 13 : ");
         Exercise9.main(args);
 
         print("\nRuning Exercise 10 and 11 : ");
