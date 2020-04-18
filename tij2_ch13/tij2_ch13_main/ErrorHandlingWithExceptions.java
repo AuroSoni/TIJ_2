@@ -17,7 +17,7 @@ public class ErrorHandlingWithExceptions{
         print("\nRuning Exercise 2 : ");
         Exercise2.main(args);
 
-        print("\nRuning Exercise 3 : ");
+        print("\nRuning Exercise 3 and 7 : ");
         Exercise3.main(args);
 
         print("\nRuning Exercise 4 : ");
