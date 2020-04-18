@@ -26,6 +26,13 @@ public class Exercise10 {
             throw n;
         }
     }
+    void h(){
+        try {
+            g();
+        } catch (Naughty e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     void g() throws Naughty {
         throw new Naughty();
@@ -43,6 +50,12 @@ public class Exercise10 {
         } catch (Exception e) {
             print("Cause : " + e.getCause());
             print("Class : " + e.getClass().getSimpleName());
+        }
+        try {
+            ex10.h();
+        } catch (Exception e) {
+            print("Stack Trace : ");
+            e.printStackTrace();
         }
     }
 }

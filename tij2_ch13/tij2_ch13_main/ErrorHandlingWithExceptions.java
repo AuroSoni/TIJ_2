@@ -43,7 +43,7 @@ public class ErrorHandlingWithExceptions {
         print("\nRuning Exercise 9 : ");
         Exercise9.main(args);
 
-        print("\nRuning Exercise 10 : ");
+        print("\nRuning Exercise 10 and 11 : ");
         Exercise10.main(args);
     }
 }
