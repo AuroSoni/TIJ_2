@@ -1,4 +1,4 @@
-package tij2_ch13.tij2_ch13;
+package tij2_ch13.tij2_ch13.ex29;
 
 class BaseballException extends RuntimeException {
 
