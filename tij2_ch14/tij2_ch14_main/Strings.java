@@ -1,7 +1,8 @@
 package tij2_ch14.tij2_ch14_main;
 import static custom_tools.print.Print.*;
 
-import tij2_ch14.tij2_ch14.Exercise3;
+import tij2_ch14.tij2_ch14.ex3.Exercise3;
+import tij2_ch14.tij2_ch14.ex4.Exercise4;
 import tij2_ch14.tij2_ch14.ex1.Exercise1;
 import tij2_ch14.tij2_ch14.ex2.Exercise2;
 
@@ -15,5 +16,8 @@ public class Strings{
 
         print("\nRunning Exercise 3 : ");
         Exercise3.main(args);
+
+        print("\nRunning Exercise 4 : ");
+        Exercise4.main(args);
     }
 }
