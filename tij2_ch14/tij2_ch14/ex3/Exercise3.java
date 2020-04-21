@@ -1,4 +1,4 @@
-package tij2_ch14.tij2_ch14;
+package tij2_ch14.tij2_ch14.ex3;
 import java.io.*; 
 import java.util.*; 
 
