@@ -10,6 +10,7 @@ import tij2_ch14.tij2_ch14.ex9.Exercise9;
 import tij2_ch14.tij2_ch14.ex1.Exercise1;
 import tij2_ch14.tij2_ch14.ex10.Exercise10;
 import tij2_ch14.tij2_ch14.ex11.Exercise11;
+import tij2_ch14.tij2_ch14.ex12.Exercise12;
 import tij2_ch14.tij2_ch14.ex2.Exercise2;
 
 public class Strings{
@@ -43,5 +44,8 @@ public class Strings{
 
         print("\nRunning Exercise 11 : ");
         Exercise11.main(args);
+
+        print("\nRunning Exercise 12 : ");
+        Exercise12.main(args);
     }
 }
