@@ -12,6 +12,7 @@ import tij2_ch14.tij2_ch14.ex10.Exercise10;
 import tij2_ch14.tij2_ch14.ex11.Exercise11;
 import tij2_ch14.tij2_ch14.ex12.Exercise12;
 import tij2_ch14.tij2_ch14.ex13.Exercise13;
+import tij2_ch14.tij2_ch14.ex14.Exercise14;
 import tij2_ch14.tij2_ch14.ex2.Exercise2;
 
 public class Strings{
@@ -51,5 +52,8 @@ public class Strings{
 
         print("\nRunning Exercise 13 : ");
         Exercise13.main(args);
+
+        print("\nRunning Exercise 14 : ");
+        Exercise14.main(args);
     }
 }
