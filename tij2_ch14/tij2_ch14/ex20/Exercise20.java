@@ -1,4 +1,4 @@
-package tij2_ch14.tij2_ch14;
+package tij2_ch14.tij2_ch14.ex20;
 
 import java.util.Scanner;
 import static custom_tools.print.Print.*;
