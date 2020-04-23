@@ -10,6 +10,7 @@ import tij2_ch14.tij2_ch14.ex4.Exercise4;
 import tij2_ch14.tij2_ch14.ex6.Exercise6;
 import tij2_ch14.tij2_ch14.ex8.Exercise8;
 import tij2_ch14.tij2_ch14.ex9.Exercise9;
+import tij2_ch14.tij2_ch14.Exercise20;
 import tij2_ch14.tij2_ch14.ex1.Exercise1;
 import tij2_ch14.tij2_ch14.ex10.Exercise10;
 import tij2_ch14.tij2_ch14.ex11.Exercise11;
@@ -76,5 +77,8 @@ public class Strings {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        print("\nRunning Exercise 20 : ");
+        Exercise20.main(args);
     }
 }
