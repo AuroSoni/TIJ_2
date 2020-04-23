@@ -17,6 +17,7 @@ import tij2_ch14.tij2_ch14.ex12.Exercise12;
 import tij2_ch14.tij2_ch14.ex13.Exercise13;
 import tij2_ch14.tij2_ch14.ex14.Exercise14;
 import tij2_ch14.tij2_ch14.ex15.Exercise15;
+import tij2_ch14.tij2_ch14.ex16.Exercise16;
 import tij2_ch14.tij2_ch14.ex2.Exercise2;
 
 public class Strings {
@@ -63,6 +64,14 @@ public class Strings {
         print("\nRunning Exercise 15 : ");
         try {
             Exercise15.main(new String[] { "tij2_ch14\\tij2_ch14\\ex15\\Exercise15.java", "\\b[Ssct]\\w+",
+                    String.valueOf(Pattern.CASE_INSENSITIVE) });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        print("\nRunning Exercise 16 : ");
+        try {
+            Exercise16.main(new String[] { "tij2_ch14\\tij2_ch14", "\\b[Ssct]\\w+",
                     String.valueOf(Pattern.CASE_INSENSITIVE) });
         } catch (Exception e) {
             e.printStackTrace();
