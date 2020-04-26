@@ -1,7 +1,6 @@
 package tij2_ch14.tij2_ch14_main;
 
 import static custom_tools.print.Print.*;
-
 import java.util.regex.Pattern;
 
 import tij2_ch12.tij2_ch12.ex7.Exercise7;
@@ -19,6 +18,7 @@ import tij2_ch14.tij2_ch14.ex13.Exercise13;
 import tij2_ch14.tij2_ch14.ex14.Exercise14;
 import tij2_ch14.tij2_ch14.ex15.Exercise15;
 import tij2_ch14.tij2_ch14.ex16.Exercise16;
+import tij2_ch14.tij2_ch14.ex17.Exercise17;
 import tij2_ch14.tij2_ch14.ex2.Exercise2;
 
 public class Strings {
@@ -78,6 +78,9 @@ public class Strings {
             e.printStackTrace();
         }
 
+        print("\nRunning Exercise17 : ");
+        Exercise17.main(new String[]{"tij2_ch14\\tij2_ch14"});
+        
         print("\nRunning Exercise 20 : ");
         Exercise20.main(args);
     }
