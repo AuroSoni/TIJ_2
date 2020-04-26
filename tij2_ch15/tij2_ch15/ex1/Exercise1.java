@@ -7,6 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 interface HasBatteries {} 
 interface Waterproof {} 
 interface Shoots {} 
+interface newInterface{}
  
 class Toy {   
     // Comment out the following default constructor   
@@ -15,7 +16,7 @@ class Toy {
     Toy(int i) {} 
 } 
  
-class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {   
+class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots, newInterface {   
     FancyToy() { 
         super(1); 
     } 
@@ -23,6 +24,7 @@ class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {
 
 /**
  * In ToyTest.java (aka Exercise1), comment out Toy’s default constructor and explain what happens.
+ * (Ex2)Incorporate a new kind of interface into ToyTest.java and verify that it is detected and displayed properly.
  */
 public class Exercise1 {  
     static void printInfo(Class<?> cc) {     
