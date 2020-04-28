@@ -49,7 +49,8 @@ public class Exercise1 {
         Object obj = null;     
         try {       
             // Requires default constructor:       
-            obj = up.getDeclaredConstructor().newInstance();     
+            obj = up.getDeclaredConstructor().newInstance();  
+            printInfo(obj.getClass());    
         } catch(InstantiationException e) {       
             print("Cannot instantiate");       
             System.exit(1);     
@@ -61,6 +62,6 @@ public class Exercise1 {
         } catch(InvocationTargetException e){
             print("Invocation Target Exception");
         }
-        printInfo(obj.getClass());   
+          
     } 
 }
