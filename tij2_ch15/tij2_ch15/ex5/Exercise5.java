@@ -1,4 +1,4 @@
-package tij2_ch15.tij2_ch15;
+package tij2_ch15.tij2_ch15.ex5;
 
 import static custom_tools.print.Print.*;
 
