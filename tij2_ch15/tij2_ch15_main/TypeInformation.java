@@ -4,6 +4,7 @@ import static custom_tools.print.Print.*;
 
 import tij2_ch15.tij2_ch15.ex3.Exercise3;
 import tij2_ch15.tij2_ch15.ex5.Exercise5;
+import tij2_ch15.tij2_ch15.ex6.Exercise6;
 import tij2_ch15.tij2_ch15.ex1.Exercise1;
 
 public class TypeInformation {
@@ -17,5 +18,8 @@ public class TypeInformation {
 
         print("\nRunning Exercise 5 : ");
         Exercise5.main(args);
+
+        print("\nRunning Exercise 6 : ");
+        Exercise6.main(args);
     }
 }
