@@ -8,6 +8,7 @@ import tij2_ch15.tij2_ch15.ex6.Exercise6;
 import tij2_ch15.tij2_ch15.ex7.Exercise7;
 import tij2_ch15.tij2_ch15.ex8.Exercise8;
 import tij2_ch15.tij2_ch15.ex1.Exercise1;
+import tij2_ch15.tij2_ch15.ex10.Exercise10;
 
 public class TypeInformation {
     public static void main(String[] args) {
@@ -27,7 +28,10 @@ public class TypeInformation {
         print("\nRunning Exercise 7 : ");
         Exercise7.main(new String[]{"Gum","Candy","Gum","Juice"});
 
-        print("\nRunning Exercise 8 : ");
+        print("\nRunning Exercise 8 and 9 : ");
         Exercise8.main(new String[]{"tij2_ch15.tij2_ch15.ex6.Triangle","tij2_ch10.tij2_ch10.ex14.Exercise14","tij2_ch10.tij2_ch10.ex13.Exercise13"});
+        
+        print("\nRunning Exercise 10 : ");
+        Exercise10.main(args);
     }
 }
