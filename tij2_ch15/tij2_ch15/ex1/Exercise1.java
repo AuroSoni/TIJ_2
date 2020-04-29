@@ -12,7 +12,7 @@ interface newInterface{}
 class Toy {   
     // Comment out the following default constructor   
     // to see NoSuchMethodError from (*1*)   
-    //Toy() {}   
+    Toy() {}   
     Toy(int i) {} 
 } 
  
@@ -64,4 +64,26 @@ public class Exercise1 {
         }
           
     } 
+    
+    /**
+     * Just for experimental purposes.
+     */
+    static class GenericToyTest {
+        public static void main(String[] args) throws Exception {     
+            Class<FancyToy> ftClass = FancyToy.class;     
+            // Produces exact type:     
+            FancyToy fancyToy = ftClass.getDeclaredConstructor().newInstance();  
+            print(fancyToy.getClass());   
+            print(fancyToy);
+            Class<? super FancyToy> up = ftClass.getSuperclass();
+            print(up.getClass());   
+            print(up);  
+            // This won’t compile:     
+            // Class<Toy> up2 = ftClass.getSuperclass();     
+            // Only produces Object:     
+            Object obj = up.getDeclaredConstructor().newInstance();
+            print(obj.getClass());   
+            print(obj);
+        }
+    }
 }
