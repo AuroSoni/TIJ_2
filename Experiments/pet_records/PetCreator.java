@@ -28,7 +28,7 @@ public abstract class PetCreator {
         }
         return pets;
     }
-    public List<? extends Pet> arrayList(int size){
+    public List<? extends Pet> arrayList(){
         return createArray(20);
     }
 }
