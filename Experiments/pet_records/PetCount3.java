@@ -27,7 +27,7 @@ public class PetCount3 {
             StringBuilder s=new StringBuilder();
             s.append("{");
             for (Map.Entry<Class<? extends Pet>,Integer> entry : entrySet()){
-                s.append(entry.getKey());
+                s.append(entry.getKey().getSimpleName());
                 s.append(" = ");
                 s.append(entry.getValue());
                 s.append(" , ");
